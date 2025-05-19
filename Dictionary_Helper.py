@@ -11,8 +11,19 @@ DEBUG = True
 DEBUG_FOLDER = "Debug\\"
 
 url = "https://api-v3.mbta.com"
+alerts_url = url + "/alerts"
+facilities_url = url + "/facilities"
+lines_url = url + "/lines"
+live_facilities_url = url + "/live_facilities"
+prediction_url = url + "/prediction"
+route_url = url + "/routes"
+route_pattern_url = url + "route_patterns"
+schedule_url = url + "/schedules"
+service_url = url + "/services"
+shape_url = url + "/shapes"
+stop_url = url + "/stops"
+trip_url = url + "/trips"
 vehicles_url = url + "/vehicles"
-routes_url = url + "/routes"
 
 default_params = { }
 
@@ -21,7 +32,7 @@ default_headers = {
 }
 
 def Get_Routes(params = default_params, headers = default_headers):
-    response = requests.get(routes_url, params=params, headers=headers)
+    response = requests.get(route_url, params=params, headers=headers)
     print("Routes Response: " + str(response.status_code))
     routes = response.json()
     if DEBUG:
