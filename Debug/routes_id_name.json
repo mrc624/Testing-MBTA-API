@@ -1,0 +1,714 @@
+{
+    "Red": {
+        "short_name": "",
+        "long_name": "Red Line"
+    },
+    "Mattapan": {
+        "short_name": "",
+        "long_name": "Mattapan Trolley"
+    },
+    "Orange": {
+        "short_name": "",
+        "long_name": "Orange Line"
+    },
+    "Green-B": {
+        "short_name": "B",
+        "long_name": "Green Line B"
+    },
+    "Green-C": {
+        "short_name": "C",
+        "long_name": "Green Line C"
+    },
+    "Green-D": {
+        "short_name": "D",
+        "long_name": "Green Line D"
+    },
+    "Green-E": {
+        "short_name": "E",
+        "long_name": "Green Line E"
+    },
+    "Blue": {
+        "short_name": "",
+        "long_name": "Blue Line"
+    },
+    "741": {
+        "short_name": "SL1",
+        "long_name": "Logan Airport Terminals - South Station"
+    },
+    "742": {
+        "short_name": "SL2",
+        "long_name": "Design Center - South Station"
+    },
+    "743": {
+        "short_name": "SL3",
+        "long_name": "Chelsea Station - South Station"
+    },
+    "751": {
+        "short_name": "SL4",
+        "long_name": "Nubian Station - South Station"
+    },
+    "749": {
+        "short_name": "SL5",
+        "long_name": "Nubian Station - Temple Place"
+    },
+    "746": {
+        "short_name": "SLW",
+        "long_name": "Silver Line Way - South Station"
+    },
+    "CR-Fairmount": {
+        "short_name": "",
+        "long_name": "Fairmount Line"
+    },
+    "CR-NewBedford": {
+        "short_name": "",
+        "long_name": "Fall River/New Bedford Line"
+    },
+    "CR-Fitchburg": {
+        "short_name": "",
+        "long_name": "Fitchburg Line"
+    },
+    "CR-Worcester": {
+        "short_name": "",
+        "long_name": "Framingham/Worcester Line"
+    },
+    "CR-Franklin": {
+        "short_name": "",
+        "long_name": "Franklin/Foxboro Line"
+    },
+    "CR-Greenbush": {
+        "short_name": "",
+        "long_name": "Greenbush Line"
+    },
+    "CR-Haverhill": {
+        "short_name": "",
+        "long_name": "Haverhill Line"
+    },
+    "CR-Kingston": {
+        "short_name": "",
+        "long_name": "Kingston Line"
+    },
+    "CR-Lowell": {
+        "short_name": "",
+        "long_name": "Lowell Line"
+    },
+    "CR-Needham": {
+        "short_name": "",
+        "long_name": "Needham Line"
+    },
+    "CR-Newburyport": {
+        "short_name": "",
+        "long_name": "Newburyport/Rockport Line"
+    },
+    "CR-Providence": {
+        "short_name": "",
+        "long_name": "Providence/Stoughton Line"
+    },
+    "CR-Foxboro": {
+        "short_name": "",
+        "long_name": "Foxboro Event Service"
+    },
+    "Boat-F4": {
+        "short_name": "",
+        "long_name": "Charlestown Ferry"
+    },
+    "Boat-F1": {
+        "short_name": "",
+        "long_name": "Hingham/Hull Ferry"
+    },
+    "Boat-EastBoston": {
+        "short_name": "",
+        "long_name": "East Boston Ferry"
+    },
+    "Boat-Lynn": {
+        "short_name": "",
+        "long_name": "Lynn Ferry"
+    },
+    "Boat-F6": {
+        "short_name": "",
+        "long_name": "Winthrop Ferry"
+    },
+    "Boat-F7": {
+        "short_name": "",
+        "long_name": "Quincy Ferry"
+    },
+    "747": {
+        "short_name": "CT2",
+        "long_name": "Sullivan Square Station - Ruggles Station"
+    },
+    "708": {
+        "short_name": "CT3",
+        "long_name": "Beth Israel Deaconess Hospital - Andrew Station"
+    },
+    "1": {
+        "short_name": "1",
+        "long_name": "Harvard Square - Nubian Station"
+    },
+    "4": {
+        "short_name": "4",
+        "long_name": "North Station - Design Center"
+    },
+    "7": {
+        "short_name": "7",
+        "long_name": "City Point - Otis Street & Summer Street"
+    },
+    "8": {
+        "short_name": "8",
+        "long_name": "Harbor Point - Kenmore Station"
+    },
+    "9": {
+        "short_name": "9",
+        "long_name": "City Point - Copley Square"
+    },
+    "10": {
+        "short_name": "10",
+        "long_name": "City Point - Copley Square"
+    },
+    "11": {
+        "short_name": "11",
+        "long_name": "City Point - Chauncy Street & Summer Street"
+    },
+    "14": {
+        "short_name": "14",
+        "long_name": "Roslindale Square - Heath Street"
+    },
+    "15": {
+        "short_name": "15",
+        "long_name": "Fields Corner Station or St Peter's Square - Ruggles Station"
+    },
+    "16": {
+        "short_name": "16",
+        "long_name": "Forest Hills Station - Andrew Station or Harbor Point"
+    },
+    "17": {
+        "short_name": "17",
+        "long_name": "Fields Corner Station - Andrew Station"
+    },
+    "18": {
+        "short_name": "18",
+        "long_name": "Ashmont Station - Andrew Station"
+    },
+    "19": {
+        "short_name": "19",
+        "long_name": "Fields Corner Station - Kenmore or Ruggles Station"
+    },
+    "21": {
+        "short_name": "21",
+        "long_name": "Ashmont Station - Forest Hills Station"
+    },
+    "22": {
+        "short_name": "22",
+        "long_name": "Ashmont Station - Ruggles Station via Talbot Ave"
+    },
+    "23": {
+        "short_name": "23",
+        "long_name": "Ashmont Station - Ruggles Station via Washington Street"
+    },
+    "24": {
+        "short_name": "24",
+        "long_name": "Wakefield Avenue & Truman Parkway - Ashmont Station"
+    },
+    "26": {
+        "short_name": "26",
+        "long_name": "Ashmont Station - Norfolk Street Loop"
+    },
+    "28": {
+        "short_name": "28",
+        "long_name": "Mattapan Station - Ruggles Station"
+    },
+    "29": {
+        "short_name": "29",
+        "long_name": "Mattapan Station - Jackson Square Station"
+    },
+    "30": {
+        "short_name": "30",
+        "long_name": "Mattapan Station - Forest Hills Station via Cummins Highway and Roslindale Square"
+    },
+    "31": {
+        "short_name": "31",
+        "long_name": "Mattapan Station - Forest Hills Station via Morton Street"
+    },
+    "32": {
+        "short_name": "32",
+        "long_name": "Wolcott or Cleary Square - Forest Hills Station"
+    },
+    "33": {
+        "short_name": "33",
+        "long_name": "River Street & Milton Street - Mattapan Station"
+    },
+    "34": {
+        "short_name": "34",
+        "long_name": "Dedham Square - Forest Hills Station"
+    },
+    "34E": {
+        "short_name": "34E",
+        "long_name": "Walpole Center - Forest Hills Station"
+    },
+    "35": {
+        "short_name": "35",
+        "long_name": "Dedham Mall or Stimson Street - Forest Hills Station"
+    },
+    "36": {
+        "short_name": "36",
+        "long_name": "Millennium Park or VA Hospital - Forest Hills Station"
+    },
+    "37": {
+        "short_name": "37",
+        "long_name": "Baker Street & Vermont Street - Forest Hills Station"
+    },
+    "38": {
+        "short_name": "38",
+        "long_name": "Wren Street - Forest Hills Station"
+    },
+    "39": {
+        "short_name": "39",
+        "long_name": "Forest Hills Station - Back Bay Station"
+    },
+    "40": {
+        "short_name": "40",
+        "long_name": "Georgetowne - Forest Hills Station"
+    },
+    "41": {
+        "short_name": "41",
+        "long_name": "Centre Street & Eliot Street - JFK/UMass Station"
+    },
+    "42": {
+        "short_name": "42",
+        "long_name": "Forest Hills Station - Nubian Station"
+    },
+    "43": {
+        "short_name": "43",
+        "long_name": "Ruggles Station - Park Street Station"
+    },
+    "44": {
+        "short_name": "44",
+        "long_name": "Jackson Square Station - Ruggles Station"
+    },
+    "45": {
+        "short_name": "45",
+        "long_name": "Franklin Park - Ruggles Station"
+    },
+    "47": {
+        "short_name": "47",
+        "long_name": "Central Square, Cambridge - Broadway Station"
+    },
+    "50": {
+        "short_name": "50",
+        "long_name": "Cleary Square - Forest Hills Station"
+    },
+    "51": {
+        "short_name": "51",
+        "long_name": "Reservoir Station - Forest Hills Station"
+    },
+    "52": {
+        "short_name": "52",
+        "long_name": "Dedham Mall - Watertown Yard"
+    },
+    "55": {
+        "short_name": "55",
+        "long_name": "West Fenway - Copley Square"
+    },
+    "57": {
+        "short_name": "57",
+        "long_name": "Watertown Yard - Kenmore Station"
+    },
+    "59": {
+        "short_name": "59",
+        "long_name": "Needham Junction - Watertown Square"
+    },
+    "60": {
+        "short_name": "60",
+        "long_name": "Chestnut Hill - Kenmore Station"
+    },
+    "61": {
+        "short_name": "61",
+        "long_name": "North Waltham - Waltham Center"
+    },
+    "62": {
+        "short_name": "62",
+        "long_name": "Bedford VA Hospital - Alewife Station"
+    },
+    "627": {
+        "short_name": "62/76",
+        "long_name": "Bedford VA Hospital - Alewife Station via Hanscom Airport"
+    },
+    "64": {
+        "short_name": "64",
+        "long_name": "Oak Square - University Park or Kendall/MIT Station"
+    },
+    "65": {
+        "short_name": "65",
+        "long_name": "Brighton Center - Kenmore Station"
+    },
+    "66": {
+        "short_name": "66",
+        "long_name": "Harvard Square - Nubian Station"
+    },
+    "67": {
+        "short_name": "67",
+        "long_name": "Turkey Hill - Alewife Station"
+    },
+    "68": {
+        "short_name": "68",
+        "long_name": "Harvard Square - Kendall/MIT Station"
+    },
+    "69": {
+        "short_name": "69",
+        "long_name": "Harvard Square - Lechmere Station"
+    },
+    "70": {
+        "short_name": "70",
+        "long_name": "Market Place Drive or Waltham Center - University Park"
+    },
+    "71": {
+        "short_name": "71",
+        "long_name": "Watertown Square - Harvard Station"
+    },
+    "73": {
+        "short_name": "73",
+        "long_name": "Waverley Square - Harvard Station"
+    },
+    "74": {
+        "short_name": "74",
+        "long_name": "Belmont Center - Harvard via Concord Avenue"
+    },
+    "75": {
+        "short_name": "75",
+        "long_name": "Belmont Center - Harvard via Huron Avenue"
+    },
+    "76": {
+        "short_name": "76",
+        "long_name": "Lincoln Lab - Alewife Station"
+    },
+    "77": {
+        "short_name": "77",
+        "long_name": "Arlington Heights - Harvard Station"
+    },
+    "78": {
+        "short_name": "78",
+        "long_name": "Arlmont Village - Harvard Station"
+    },
+    "80": {
+        "short_name": "80",
+        "long_name": "Arlington Center - Lechmere Station"
+    },
+    "83": {
+        "short_name": "83",
+        "long_name": "Rindge Avenue - Central Square, Cambridge"
+    },
+    "85": {
+        "short_name": "85",
+        "long_name": "Spring Hill - Kendall/MIT Station"
+    },
+    "86": {
+        "short_name": "86",
+        "long_name": "Harvard Square - Reservoir Station"
+    },
+    "87": {
+        "short_name": "87",
+        "long_name": "Clarendon Hill or Arlington Center - Lechmere Station"
+    },
+    "88": {
+        "short_name": "88",
+        "long_name": "Clarendon Hill - Lechmere Station"
+    },
+    "89": {
+        "short_name": "89",
+        "long_name": "Clarendon Hill or Davis Station - Sullivan Square Station"
+    },
+    "90": {
+        "short_name": "90",
+        "long_name": "Davis Station - Assembly Row"
+    },
+    "91": {
+        "short_name": "91",
+        "long_name": "Sullivan Square Station - Central Square, Cambridge"
+    },
+    "92": {
+        "short_name": "92",
+        "long_name": "Sullivan Square Station - Downtown via Main Street"
+    },
+    "93": {
+        "short_name": "93",
+        "long_name": "Sullivan Square Station - Downtown via Bunker Hill Street"
+    },
+    "94": {
+        "short_name": "94",
+        "long_name": "Medford Square - Davis Station"
+    },
+    "95": {
+        "short_name": "95",
+        "long_name": "West Medford or Arlington Center - Sullivan Square Station"
+    },
+    "96": {
+        "short_name": "96",
+        "long_name": "Medford Square - Harvard Station"
+    },
+    "97": {
+        "short_name": "97",
+        "long_name": "Malden Center Station - Wellington Station"
+    },
+    "99": {
+        "short_name": "99",
+        "long_name": "Woodland Road - Wellington Station"
+    },
+    "100": {
+        "short_name": "100",
+        "long_name": "Elm Street - Wellington Station"
+    },
+    "101": {
+        "short_name": "101",
+        "long_name": "Malden Center Station - Sullivan Square Station via Winter Hill"
+    },
+    "104": {
+        "short_name": "104",
+        "long_name": "Malden Center Station - Airport Station"
+    },
+    "105": {
+        "short_name": "105",
+        "long_name": "Malden Center Station - Sullivan Square Station via Newland Street Housing"
+    },
+    "106": {
+        "short_name": "106",
+        "long_name": "Lebanon Loop - Wellington Station"
+    },
+    "108": {
+        "short_name": "108",
+        "long_name": "Linden Square - Wellington Station"
+    },
+    "109": {
+        "short_name": "109",
+        "long_name": "Linden Square - Harvard Square via Sullivan"
+    },
+    "110": {
+        "short_name": "110",
+        "long_name": "Wonderland Station - Wellington Station"
+    },
+    "111": {
+        "short_name": "111",
+        "long_name": "Woodlawn - Haymarket Station"
+    },
+    "112": {
+        "short_name": "112",
+        "long_name": "Wellington Station - Wood Island Station"
+    },
+    "114": {
+        "short_name": "114",
+        "long_name": "Market Basket - Maverick Station"
+    },
+    "116": {
+        "short_name": "116",
+        "long_name": "Wonderland Station - Maverick Station"
+    },
+    "119": {
+        "short_name": "119",
+        "long_name": "Northgate Shopping Center - Beachmont Station"
+    },
+    "120": {
+        "short_name": "120",
+        "long_name": "Orient Heights Station - Jeffries Point"
+    },
+    "121": {
+        "short_name": "121",
+        "long_name": "Wood Island Station - Maverick Station"
+    },
+    "131": {
+        "short_name": "131",
+        "long_name": "Melrose Highlands - Malden Center Station"
+    },
+    "132": {
+        "short_name": "132",
+        "long_name": "Redstone Shopping Center - Malden Center Station"
+    },
+    "134": {
+        "short_name": "134",
+        "long_name": "North Woburn - Wellington Station"
+    },
+    "137": {
+        "short_name": "137",
+        "long_name": "Reading Depot - Malden Center Station"
+    },
+    "171": {
+        "short_name": "171",
+        "long_name": "Logan Airport Terminals - Nubian Station"
+    },
+    "201": {
+        "short_name": "201",
+        "long_name": "Fields Corner Loop via Neponset Ave"
+    },
+    "202": {
+        "short_name": "202",
+        "long_name": "Fields Corner Loop via Adams Street"
+    },
+    "210": {
+        "short_name": "210",
+        "long_name": "Quincy Center Station - Fields Corner Station"
+    },
+    "211": {
+        "short_name": "211",
+        "long_name": "Quincy Center Station - Squantum"
+    },
+    "215": {
+        "short_name": "215",
+        "long_name": "Quincy Center Station - Ashmont Station via West Quincy"
+    },
+    "216": {
+        "short_name": "216",
+        "long_name": "Houghs Neck - Quincy Center Station via Germantown"
+    },
+    "217": {
+        "short_name": "217",
+        "long_name": "Quincy Center Station - Ashmont Station via Wollaston Station"
+    },
+    "220": {
+        "short_name": "220",
+        "long_name": "Hingham Depot - Quincy Center Station"
+    },
+    "222": {
+        "short_name": "222",
+        "long_name": "East Weymouth - Quincy Center Station"
+    },
+    "225": {
+        "short_name": "225",
+        "long_name": "Weymouth Landing - Quincy Center Station"
+    },
+    "226": {
+        "short_name": "226",
+        "long_name": "Columbian Square - Braintree Station"
+    },
+    "230": {
+        "short_name": "230",
+        "long_name": "Montello Station - Quincy Center Station"
+    },
+    "236": {
+        "short_name": "236",
+        "long_name": "South Shore Plaza - Quincy Center Station"
+    },
+    "238": {
+        "short_name": "238",
+        "long_name": "Holbrook/Randolph Station - Quincy Center Station"
+    },
+    "240": {
+        "short_name": "240",
+        "long_name": "Avon Square - Ashmont Station"
+    },
+    "245": {
+        "short_name": "245",
+        "long_name": "Quincy Center Station - Mattapan Station"
+    },
+    "350": {
+        "short_name": "350",
+        "long_name": "North Burlington - Alewife Station"
+    },
+    "351": {
+        "short_name": "351",
+        "long_name": "Bedford Woods Drive - Third Avenue"
+    },
+    "354": {
+        "short_name": "354",
+        "long_name": "North Burlington - State Street, Boston"
+    },
+    "411": {
+        "short_name": "411",
+        "long_name": "Kennedy Drive or Jack Satter House - Malden Center Station"
+    },
+    "424": {
+        "short_name": "424",
+        "long_name": "Eastern Avenue & Essex Street - Wonderland Station"
+    },
+    "426": {
+        "short_name": "426",
+        "long_name": "Central Square, Lynn - Haymarket or Wonderland Station"
+    },
+    "428": {
+        "short_name": "428",
+        "long_name": "Oaklandvale - Haymarket Station"
+    },
+    "429": {
+        "short_name": "429",
+        "long_name": "Northgate Shopping Center - Central Square, Lynn"
+    },
+    "430": {
+        "short_name": "430",
+        "long_name": "Saugus Center - Malden Center Station"
+    },
+    "435": {
+        "short_name": "435",
+        "long_name": "Liberty Tree Mall - Central Square, Lynn via Peabody Square"
+    },
+    "436": {
+        "short_name": "436",
+        "long_name": "Liberty Tree Mall - Central Square, Lynn via Goodwin Circle"
+    },
+    "439": {
+        "short_name": "439",
+        "long_name": "Nahant - Wonderland Station"
+    },
+    "441": {
+        "short_name": "441",
+        "long_name": "Marblehead - Wonderland Station via Paradise Road"
+    },
+    "442": {
+        "short_name": "442",
+        "long_name": "Marblehead - Wonderland Station via Humphrey Street"
+    },
+    "450": {
+        "short_name": "450",
+        "long_name": "Salem Depot - Wonderland or Haymarket Station"
+    },
+    "451": {
+        "short_name": "451",
+        "long_name": "North Beverly Station - Salem Depot"
+    },
+    "455": {
+        "short_name": "455",
+        "long_name": "Salem Depot - Wonderland Station"
+    },
+    "456": {
+        "short_name": "456",
+        "long_name": "Salem Depot - Central Square, Lynn"
+    },
+    "501": {
+        "short_name": "501",
+        "long_name": "Brighton Center - Federal Street & Franklin Street"
+    },
+    "504": {
+        "short_name": "504",
+        "long_name": "Watertown Yard - Federal Street & Franklin Street"
+    },
+    "505": {
+        "short_name": "505",
+        "long_name": "Waltham Center - Federal Street & Franklin Street"
+    },
+    "553": {
+        "short_name": "553",
+        "long_name": "Roberts - Newton Corner"
+    },
+    "554": {
+        "short_name": "554",
+        "long_name": "Waverley Square - Newton Corner"
+    },
+    "556": {
+        "short_name": "556",
+        "long_name": "Waltham Highlands - Newton Corner"
+    },
+    "558": {
+        "short_name": "558",
+        "long_name": "Riverside Station - Newton Corner"
+    },
+    "712": {
+        "short_name": "712",
+        "long_name": "Point Shirley - Orient Heights Station via Revere Street"
+    },
+    "713": {
+        "short_name": "713",
+        "long_name": "Point Shirley - Orient Heights Station via Winthrop Center"
+    },
+    "714": {
+        "short_name": "714",
+        "long_name": "Pemberton Point, Hull - Station Street, Hingham"
+    },
+    "716": {
+        "short_name": "716",
+        "long_name": "Cobbs Corner - Mattapan Station"
+    }
+}
