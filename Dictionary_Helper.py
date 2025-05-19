@@ -33,24 +33,24 @@ default_headers = {
 
 def Get_Routes(params = default_params, headers = default_headers):
     response = requests.get(route_url, params=params, headers=headers)
-    print("Routes Response: " + str(response.status_code))
     routes = response.json()
     if DEBUG:
+        print("Routes Response: " + str(response.status_code))
         with open(DEBUG_FOLDER + 'routes.json', 'w') as fp:
             json.dump(routes, fp, indent=4)
     return routes
 
 def Get_Vehicles(params = default_params, headers = default_headers):
     response = requests.get(vehicles_url, params=params, headers=headers)
-    print("Vehicles Response: " + str(response.status_code))
     vehicles = response.json()
     if DEBUG:
+        print("Vehicles Response: " + str(response.status_code))
         with open(DEBUG_FOLDER + 'vehicles.json', 'w') as fp:
             json.dump(vehicles, fp, indent=4)
     return vehicles
 
 def Get_ID_to_Names(params = default_params, headers = default_headers):
-    routes = Get_Routes()
+    routes = Get_Routes(params=params, headers=headers)
     ID_to_Names = { }
     for route in routes["data"]:
         route_id = route["id"]
@@ -66,8 +66,8 @@ def Get_ID_to_Names(params = default_params, headers = default_headers):
     return ID_to_Names
 
 def Get_Vehicles_on_Routes_Count(params = default_params, headers = default_headers):
-    routes = Get_Routes()
-    vehicles = Get_Vehicles()
+    routes = Get_Routes(params=params, headers=headers)
+    vehicles = Get_Vehicles(params=params, headers=headers)
     vehicles_on_route_count = { }
     for route in routes["data"]:
         vehicles_on_route_count[route["id"]] = 0
@@ -84,3 +84,25 @@ def Get_Vehicles_on_Routes_Count(params = default_params, headers = default_head
         with open(DEBUG_FOLDER + 'vehicles_on_route_count.json', 'w') as fp:
             json.dump(vehicles_on_route_count, fp, indent=4)
     return vehicles_on_route_count
+
+def Get_Lines(params = default_params, headers = default_headers):
+    response = requests.get(lines_url, params=params, headers=headers)
+    lines = response.json()
+    if DEBUG:
+        print("Lines Response: " + str(response.status_code))
+        with open(DEBUG_FOLDER + 'lines.json', 'w') as fp:
+            json.dump(lines, fp, indent=4)
+    return lines
+
+def Get_Line_Names(params = default_params, headers = default_headers):
+    lines = Get_Lines(params=params, headers=headers)
+    line_names = { }
+    for line in lines["data"]:
+        line_names[line["id"]] = {
+            "short_name": line["attributes"]["short_name"],
+            "long_name": line["attributes"]["long_name"]
+        }
+    if DEBUG:
+        with open(DEBUG_FOLDER + 'line_names.json', 'w') as fp:
+            json.dump(line_names, fp, indent=4)
+    return line_names
