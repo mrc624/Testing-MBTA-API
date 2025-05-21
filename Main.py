@@ -2,8 +2,7 @@ import API_Helper
 import Alert_Helper
 import Shape_Helper
 
-Shape_Helper.Get_Red_Line()
-
+Shape_Helper.Draw_Line("Red")
 """
 run = True
 while run:
