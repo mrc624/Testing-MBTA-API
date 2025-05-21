@@ -227,20 +227,6 @@
         {
             "attributes": {
                 "color": "80276C",
-                "long_name": "Middleborough/Lakeville Line",
-                "short_name": "",
-                "sort_order": 20010,
-                "text_color": "FFFFFF"
-            },
-            "id": "line-Middleborough",
-            "links": {
-                "self": "/lines/line-Middleborough"
-            },
-            "type": "line"
-        },
-        {
-            "attributes": {
-                "color": "80276C",
                 "long_name": "Needham Line",
                 "short_name": "",
                 "sort_order": 20011,
