@@ -1215,7 +1215,7 @@
                 "description": "Ferry",
                 "direction_destinations": [
                     "Winthrop",
-                    "Central Wharf"
+                    "Winthrop"
                 ],
                 "direction_names": [
                     "Outbound",
@@ -1254,7 +1254,7 @@
                 "description": "Ferry",
                 "direction_destinations": [
                     "Quincy",
-                    "Central Wharf"
+                    "Quincy"
                 ],
                 "direction_names": [
                     "Outbound",
