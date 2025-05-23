@@ -9,6 +9,9 @@ import Shape_Helper
 import Map_Helper
 import Route_Helper
 
+import Discord_Helper
+Discord_Helper.Run_Bot()
+
 run = True
 while run:
     choice = input("Options:\n1: Live Map\n2: Alerts\n9: Kill\n")

@@ -2,7 +2,6 @@
 /a.exe
 /key.env
 /__pycache__
-/*.py
 /Main.spec
 /dist
 /build
