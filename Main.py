@@ -30,7 +30,7 @@ while run:
         route_selection = True
         routes = [ ]
         while route_selection:
-            route = input()
+            route = input().title()
             if route in routes:
                 print("Route already added")
             elif route in ID_Names:

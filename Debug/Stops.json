@@ -2,63 +2,28 @@
     "data": [
         {
             "attributes": {
-                "address": "Cambridge St and Court St, Boston, MA",
+                "address": null,
                 "at_street": null,
                 "description": null,
-                "latitude": 42.359705,
-                "location_type": 1,
-                "longitude": -71.059215,
-                "municipality": "Boston",
-                "name": "Government Center",
+                "latitude": 42.14044,
+                "location_type": 0,
+                "longitude": -71.145198,
+                "municipality": "Canton",
+                "name": "Cobbs Corner Canton",
                 "on_street": null,
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
+                "vehicle_type": 3,
                 "wheelchair_boarding": 1
             },
-            "id": "place-gover",
+            "id": "111640",
             "links": {
-                "self": "/stops/place-gover"
+                "self": "/stops/111640"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-gover"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "197 Ivory St, Braintree, MA 02184",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.207854,
-                "location_type": 1,
-                "longitude": -71.001138,
-                "municipality": "Braintree",
-                "name": "Braintree",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-brntn",
-            "links": {
-                "self": "/stops/place-brntn"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-brntn"
+                        "related": "/facilities/?filter[stop]=111640"
                     }
                 },
                 "parent_station": {
@@ -66,7 +31,7 @@
                 },
                 "zone": {
                     "data": {
-                        "id": "CR-zone-2",
+                        "id": "LocalBus",
                         "type": "zone"
                     }
                 }
@@ -75,63 +40,28 @@
         },
         {
             "attributes": {
-                "address": "Burgin Pkwy and Centre St, Quincy, MA 02169",
-                "at_street": null,
+                "address": null,
+                "at_street": "Kinsley Place",
                 "description": null,
-                "latitude": 42.233391,
-                "location_type": 1,
-                "longitude": -71.007153,
-                "municipality": "Quincy",
-                "name": "Quincy Adams",
-                "on_street": null,
+                "latitude": 42.144333,
+                "location_type": 0,
+                "longitude": -71.149085,
+                "municipality": "Canton",
+                "name": "Washington St from Cobbs Corner to High St (FLAG)",
+                "on_street": "Washington Street",
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
+                "vehicle_type": 3,
                 "wheelchair_boarding": 1
             },
-            "id": "place-qamnl",
+            "id": "111642",
             "links": {
-                "self": "/stops/place-qamnl"
+                "self": "/stops/111642"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-qamnl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "175 Thomas E Burgin Pkwy, Quincy, MA 02169",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.251809,
-                "location_type": 1,
-                "longitude": -71.005409,
-                "municipality": "Quincy",
-                "name": "Quincy Center",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-qnctr",
-            "links": {
-                "self": "/stops/place-qnctr"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-qnctr"
+                        "related": "/facilities/?filter[stop]=111642"
                     }
                 },
                 "parent_station": {
@@ -139,7 +69,7 @@
                 },
                 "zone": {
                     "data": {
-                        "id": "CR-zone-1",
+                        "id": "LocalBus",
                         "type": "zone"
                     }
                 }
@@ -148,315 +78,456 @@
         },
         {
             "attributes": {
-                "address": "90 Woodbine St, Quincy, MA 02171",
-                "at_street": null,
+                "address": null,
+                "at_street": "Capen Place",
                 "description": null,
-                "latitude": 42.266514,
-                "location_type": 1,
-                "longitude": -71.020337,
-                "municipality": "Quincy",
-                "name": "Wollaston",
-                "on_street": null,
+                "latitude": 42.150599,
+                "location_type": 0,
+                "longitude": -71.149245,
+                "municipality": "Canton",
+                "name": "Washington St from High St to Church St (FLAG)",
+                "on_street": "Washington Street",
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
+                "vehicle_type": 3,
                 "wheelchair_boarding": 1
             },
-            "id": "place-wlsta",
+            "id": "111648",
             "links": {
-                "self": "/stops/place-wlsta"
+                "self": "/stops/111648"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-wlsta"
+                        "related": "/facilities/?filter[stop]=111648"
                     }
                 },
                 "parent_station": {
                     "data": null
                 },
                 "zone": {
-                    "data": null
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
                 }
             },
             "type": "stop"
         },
         {
             "attributes": {
-                "address": "Hancock St and Hunt St, Quincy, MA 02171",
-                "at_street": null,
+                "address": null,
+                "at_street": "Forge Pond",
                 "description": null,
-                "latitude": 42.275275,
-                "location_type": 1,
-                "longitude": -71.029583,
-                "municipality": "Quincy",
-                "name": "North Quincy",
-                "on_street": null,
+                "latitude": 42.154215,
+                "location_type": 0,
+                "longitude": -71.145689,
+                "municipality": "Canton",
+                "name": "Washington St - Church St to Canton Ctr Sta (FLAG)",
+                "on_street": "Washington Street",
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
+                "vehicle_type": 3,
                 "wheelchair_boarding": 1
             },
-            "id": "place-nqncy",
+            "id": "111653",
             "links": {
-                "self": "/stops/place-nqncy"
+                "self": "/stops/111653"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-nqncy"
+                        "related": "/facilities/?filter[stop]=111653"
                     }
                 },
                 "parent_station": {
                     "data": null
                 },
                 "zone": {
-                    "data": null
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
                 }
             },
             "type": "stop"
         },
         {
             "attributes": {
-                "address": "Dorchester Ave and Ashmont St, Boston, MA 02124",
+                "address": null,
                 "at_street": null,
                 "description": null,
-                "latitude": 42.28452,
-                "location_type": 1,
-                "longitude": -71.063777,
-                "municipality": "Boston",
-                "name": "Ashmont",
-                "on_street": null,
+                "latitude": 42.156617,
+                "location_type": 0,
+                "longitude": -71.145462,
+                "municipality": "Canton",
+                "name": "Washington St opp Canton Center Station",
+                "on_street": "Washington Street",
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
+                "vehicle_type": 3,
                 "wheelchair_boarding": 1
             },
-            "id": "place-asmnl",
+            "id": "111656",
             "links": {
-                "self": "/stops/place-asmnl"
+                "self": "/stops/111656"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-asmnl"
+                        "related": "/facilities/?filter[stop]=111656"
                     }
                 },
                 "parent_station": {
                     "data": null
                 },
                 "zone": {
-                    "data": null
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
                 }
             },
             "type": "stop"
         },
         {
             "attributes": {
-                "address": "Fellsway St and Milton St, Dorchester, MA 02124",
-                "at_street": null,
+                "address": null,
+                "at_street": "Sherman Street",
                 "description": null,
-                "latitude": 42.279629,
-                "location_type": 1,
-                "longitude": -71.060394,
-                "municipality": "Boston",
-                "name": "Cedar Grove",
-                "on_street": null,
+                "latitude": 42.158794,
+                "location_type": 0,
+                "longitude": -71.144918,
+                "municipality": "Canton",
+                "name": "Washington St - Canton Ctr Sta to Pequit St (FLAG)",
+                "on_street": "Washington Street",
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
+                "vehicle_type": 3,
                 "wheelchair_boarding": 1
             },
-            "id": "place-cedgr",
+            "id": "111660",
             "links": {
-                "self": "/stops/place-cedgr"
+                "self": "/stops/111660"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-cedgr"
+                        "related": "/facilities/?filter[stop]=111660"
                     }
                 },
                 "parent_station": {
                     "data": null
                 },
                 "zone": {
-                    "data": null
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
                 }
             },
             "type": "stop"
         },
         {
             "attributes": {
-                "address": "Butler St and Branchfield St, Dorchester, MA 02124",
-                "at_street": null,
+                "address": null,
+                "at_street": "Draper Street",
                 "description": null,
-                "latitude": 42.272429,
-                "location_type": 1,
-                "longitude": -71.062519,
-                "municipality": "Boston",
-                "name": "Butler",
-                "on_street": null,
+                "latitude": 42.172307,
+                "location_type": 0,
+                "longitude": -71.139199,
+                "municipality": "Canton",
+                "name": "Washington St - Chapman St to Pleasant St (FLAG)",
+                "on_street": "Washington Street",
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
+                "vehicle_type": 3,
                 "wheelchair_boarding": 1
             },
-            "id": "place-butlr",
+            "id": "111672",
             "links": {
-                "self": "/stops/place-butlr"
+                "self": "/stops/111672"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-butlr"
+                        "related": "/facilities/?filter[stop]=111672"
                     }
                 },
                 "parent_station": {
                     "data": null
                 },
                 "zone": {
-                    "data": null
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
                 }
             },
             "type": "stop"
         },
         {
             "attributes": {
-                "address": "1 Adams St, Milton, MA 02186",
+                "address": null,
+                "at_street": "Hickory Lane",
+                "description": null,
+                "latitude": 42.185813,
+                "location_type": 0,
+                "longitude": -71.121815,
+                "municipality": "Canton",
+                "name": "Washington St - Pecunit St to Turnpike St (FLAG)",
+                "on_street": "Washington Street",
+                "platform_code": null,
+                "platform_name": null,
+                "vehicle_type": 3,
+                "wheelchair_boarding": 1
+            },
+            "id": "111685",
+            "links": {
+                "self": "/stops/111685"
+            },
+            "relationships": {
+                "facilities": {
+                    "links": {
+                        "related": "/facilities/?filter[stop]=111685"
+                    }
+                },
+                "parent_station": {
+                    "data": null
+                },
+                "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
+                }
+            },
+            "type": "stop"
+        },
+        {
+            "attributes": {
+                "address": null,
                 "at_street": null,
                 "description": null,
-                "latitude": 42.270349,
-                "location_type": 1,
-                "longitude": -71.067266,
+                "latitude": 42.218305,
+                "location_type": 0,
+                "longitude": -71.119251,
                 "municipality": "Milton",
-                "name": "Milton",
-                "on_street": null,
+                "name": "1904 Canton Ave @ Trailside Museum",
+                "on_street": "Canton Avenue",
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
+                "vehicle_type": 3,
                 "wheelchair_boarding": 1
             },
-            "id": "place-miltt",
+            "id": "121017",
             "links": {
-                "self": "/stops/place-miltt"
+                "self": "/stops/121017"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-miltt"
+                        "related": "/facilities/?filter[stop]=121017"
                     }
                 },
                 "parent_station": {
                     "data": null
                 },
                 "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "23 Central Ave, Milton, MA 02186",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.270027,
-                "location_type": 1,
-                "longitude": -71.073444,
-                "municipality": "Milton",
-                "name": "Central Avenue",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-cenav",
-            "links": {
-                "self": "/stops/place-cenav"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-cenav"
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
                     }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
                 }
             },
             "type": "stop"
         },
         {
             "attributes": {
-                "address": "291 Valley Rd, Milton, MA 02186",
+                "address": null,
                 "at_street": null,
                 "description": null,
-                "latitude": 42.268347,
-                "location_type": 1,
-                "longitude": -71.081343,
+                "latitude": 42.234934,
+                "location_type": 0,
+                "longitude": -71.110934,
                 "municipality": "Milton",
-                "name": "Valley Road",
-                "on_street": null,
+                "name": "Blue Hill Ave opp Curry College",
+                "on_street": "Blue Hill Avenue",
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
+                "vehicle_type": 3,
                 "wheelchair_boarding": 2
             },
-            "id": "place-valrd",
+            "id": "121019",
             "links": {
-                "self": "/stops/place-valrd"
+                "self": "/stops/121019"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-valrd"
+                        "related": "/facilities/?filter[stop]=121019"
                     }
                 },
                 "parent_station": {
                     "data": null
                 },
                 "zone": {
-                    "data": null
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
                 }
             },
             "type": "stop"
         },
         {
             "attributes": {
-                "address": "50 Capen St, Milton, MA 02186",
-                "at_street": null,
+                "address": null,
+                "at_street": "Craig Street",
                 "description": null,
-                "latitude": 42.267563,
-                "location_type": 1,
-                "longitude": -71.087338,
+                "latitude": 42.250044,
+                "location_type": 0,
+                "longitude": -71.102039,
                 "municipality": "Milton",
-                "name": "Capen Street",
-                "on_street": null,
+                "name": "Blue Hill Ave - Barbara Ln to Valentine Rd (FLAG)",
+                "on_street": "Blue Hill Avenue",
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
+                "vehicle_type": 3,
                 "wheelchair_boarding": 1
             },
-            "id": "place-capst",
+            "id": "111711",
             "links": {
-                "self": "/stops/place-capst"
+                "self": "/stops/111711"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-capst"
+                        "related": "/facilities/?filter[stop]=111711"
                     }
                 },
                 "parent_station": {
                     "data": null
                 },
                 "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
+                }
+            },
+            "type": "stop"
+        },
+        {
+            "attributes": {
+                "address": null,
+                "at_street": "Hudson Street",
+                "description": null,
+                "latitude": 42.256091,
+                "location_type": 0,
+                "longitude": -71.098968,
+                "municipality": "Milton",
+                "name": "Blue Hill Ave @ Pagoda St",
+                "on_street": "Blue Hill Avenue",
+                "platform_code": null,
+                "platform_name": null,
+                "vehicle_type": 3,
+                "wheelchair_boarding": 0
+            },
+            "id": "111720",
+            "links": {
+                "self": "/stops/111720"
+            },
+            "relationships": {
+                "facilities": {
+                    "links": {
+                        "related": "/facilities/?filter[stop]=111720"
+                    }
+                },
+                "parent_station": {
                     "data": null
+                },
+                "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
+                }
+            },
+            "type": "stop"
+        },
+        {
+            "attributes": {
+                "address": null,
+                "at_street": "Austin Street",
+                "description": null,
+                "latitude": 42.262627,
+                "location_type": 0,
+                "longitude": -71.095503,
+                "municipality": "Milton",
+                "name": "Blue Hill Ave - Tucker St to Brush Hill Rd (FLAG)",
+                "on_street": "Blue Hill Avenue",
+                "platform_code": null,
+                "platform_name": null,
+                "vehicle_type": 3,
+                "wheelchair_boarding": 0
+            },
+            "id": "111729",
+            "links": {
+                "self": "/stops/111729"
+            },
+            "relationships": {
+                "facilities": {
+                    "links": {
+                        "related": "/facilities/?filter[stop]=111729"
+                    }
+                },
+                "parent_station": {
+                    "data": null
+                },
+                "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
+                }
+            },
+            "type": "stop"
+        },
+        {
+            "attributes": {
+                "address": null,
+                "at_street": null,
+                "description": null,
+                "latitude": 42.2667,
+                "location_type": 0,
+                "longitude": -71.093631,
+                "municipality": "Milton",
+                "name": "Blue Hills Pkwy @ River St",
+                "on_street": "Blue Hills Parkway",
+                "platform_code": null,
+                "platform_name": null,
+                "vehicle_type": 3,
+                "wheelchair_boarding": 1
+            },
+            "id": "1721",
+            "links": {
+                "self": "/stops/1721"
+            },
+            "relationships": {
+                "facilities": {
+                    "links": {
+                        "related": "/facilities/?filter[stop]=1721"
+                    }
+                },
+                "parent_station": {
+                    "data": null
+                },
+                "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
                 }
             },
             "type": "stop"
@@ -498,133 +569,28 @@
         },
         {
             "attributes": {
-                "address": "Dayton St and Clementine Park, Dorchester, MA 02124",
-                "at_street": null,
+                "address": null,
+                "at_street": "Austin Street",
                 "description": null,
-                "latitude": 42.293126,
-                "location_type": 1,
-                "longitude": -71.065738,
-                "municipality": "Boston",
-                "name": "Shawmut",
-                "on_street": null,
+                "latitude": 42.262866,
+                "location_type": 0,
+                "longitude": -71.095677,
+                "municipality": "Milton",
+                "name": "Blue Hill Ave - Brush Hill Rd to Tucker St (FLAG)",
+                "on_street": "Blue Hill Avenue",
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
+                "vehicle_type": 3,
+                "wheelchair_boarding": 0
             },
-            "id": "place-smmnl",
+            "id": "111738",
             "links": {
-                "self": "/stops/place-smmnl"
+                "self": "/stops/111738"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-smmnl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "50 Freeman St, Dorchester, MA 02122",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.300093,
-                "location_type": 1,
-                "longitude": -71.061667,
-                "municipality": "Boston",
-                "name": "Fields Corner",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-fldcr",
-            "links": {
-                "self": "/stops/place-fldcr"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-fldcr"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "125 Savin Hill Ave, Dorchester, MA 02124",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.31129,
-                "location_type": 1,
-                "longitude": -71.053331,
-                "municipality": "Boston",
-                "name": "Savin Hill",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-shmnl",
-            "links": {
-                "self": "/stops/place-shmnl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-shmnl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "599 Old Colony Ave, Boston, MA 02127-3805",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.320685,
-                "location_type": 1,
-                "longitude": -71.052391,
-                "municipality": "Boston",
-                "name": "JFK/UMass",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-jfk",
-            "links": {
-                "self": "/stops/place-jfk"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-jfk"
+                        "related": "/facilities/?filter[stop]=111738"
                     }
                 },
                 "parent_station": {
@@ -632,7 +598,7 @@
                 },
                 "zone": {
                     "data": {
-                        "id": "CR-zone-1A",
+                        "id": "LocalBus",
                         "type": "zone"
                     }
                 }
@@ -641,98 +607,28 @@
         },
         {
             "attributes": {
-                "address": "Dorchester Ave and Southhampton St, South Boston, MA 02127",
-                "at_street": null,
+                "address": null,
+                "at_street": "Pagoda Street",
                 "description": null,
-                "latitude": 42.330154,
-                "location_type": 1,
-                "longitude": -71.057655,
-                "municipality": "Boston",
-                "name": "Andrew",
-                "on_street": null,
+                "latitude": 42.255922,
+                "location_type": 0,
+                "longitude": -71.099238,
+                "municipality": "Milton",
+                "name": "Blue Hill Ave opp Pagoda St",
+                "on_street": "Blue Hill Avenue",
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
+                "vehicle_type": 3,
+                "wheelchair_boarding": 0
             },
-            "id": "place-andrw",
+            "id": "111747",
             "links": {
-                "self": "/stops/place-andrw"
+                "self": "/stops/111747"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-andrw"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Dorchester Ave and Broadway, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.342622,
-                "location_type": 1,
-                "longitude": -71.056967,
-                "municipality": "Boston",
-                "name": "Broadway",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-brdwy",
-            "links": {
-                "self": "/stops/place-brdwy"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-brdwy"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "700 Atlantic Ave, Boston, MA 02110",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.352271,
-                "location_type": 1,
-                "longitude": -71.055242,
-                "municipality": "Boston",
-                "name": "South Station",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-sstat",
-            "links": {
-                "self": "/stops/place-sstat"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-sstat"
+                        "related": "/facilities/?filter[stop]=111747"
                     }
                 },
                 "parent_station": {
@@ -740,7 +636,7 @@
                 },
                 "zone": {
                     "data": {
-                        "id": "CR-zone-1A",
+                        "id": "LocalBus",
                         "type": "zone"
                     }
                 }
@@ -749,942 +645,28 @@
         },
         {
             "attributes": {
-                "address": "Washington St and Winter St, Malden, MA 02148",
-                "at_street": null,
+                "address": null,
+                "at_street": "Atherton Street",
                 "description": null,
-                "latitude": 42.43668,
-                "location_type": 1,
-                "longitude": -71.071097,
-                "municipality": "Malden",
-                "name": "Oak Grove",
-                "on_street": null,
+                "latitude": 42.239391,
+                "location_type": 0,
+                "longitude": -71.108505,
+                "municipality": "Milton",
+                "name": "Blue Hill Ave from Barbara Ln to Curry Coll (FLAG)",
+                "on_street": "Blue Hill Avenue",
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-ogmnl",
-            "links": {
-                "self": "/stops/place-ogmnl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-ogmnl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-1A",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commercial St and Pleasant St, Malden, MA 02148",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.426632,
-                "location_type": 1,
-                "longitude": -71.07411,
-                "municipality": "Malden",
-                "name": "Malden Center",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-mlmnl",
-            "links": {
-                "self": "/stops/place-mlmnl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-mlmnl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-1A",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Revere Beach Pkwy and Rivers Edge Dr, Medford, MA 02155",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.40237,
-                "location_type": 1,
-                "longitude": -71.077082,
-                "municipality": "Medford",
-                "name": "Wellington",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-welln",
-            "links": {
-                "self": "/stops/place-welln"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-welln"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "499 Foley St, Somerville, MA 02145",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.392811,
-                "location_type": 1,
-                "longitude": -71.077257,
-                "municipality": "Somerville",
-                "name": "Assembly",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-astao",
-            "links": {
-                "self": "/stops/place-astao"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-astao"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Maffa Way and Cambridge St, Charlestown, MA 02129",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.383975,
-                "location_type": 1,
-                "longitude": -71.076994,
-                "municipality": "Boston",
-                "name": "Sullivan Square",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-sull",
-            "links": {
-                "self": "/stops/place-sull"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-sull"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Austin St and Rutherford Ave, Charlestown, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.373622,
-                "location_type": 1,
-                "longitude": -71.069533,
-                "municipality": "Boston",
-                "name": "Community College",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-ccmnl",
-            "links": {
-                "self": "/stops/place-ccmnl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-ccmnl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "135 Causeway St, Boston, MA 02114",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.365577,
-                "location_type": 1,
-                "longitude": -71.06129,
-                "municipality": "Boston",
-                "name": "North Station",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-north",
-            "links": {
-                "self": "/stops/place-north"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-north"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-1A",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "136 Blackstone St, Boston, MA 02109",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.363021,
-                "location_type": 1,
-                "longitude": -71.05829,
-                "municipality": "Boston",
-                "name": "Haymarket",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-haecl",
-            "links": {
-                "self": "/stops/place-haecl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-haecl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "200 Washington St, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.358978,
-                "location_type": 1,
-                "longitude": -71.057598,
-                "municipality": "Boston",
-                "name": "State",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-state",
-            "links": {
-                "self": "/stops/place-state"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-state"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Washington St and Summer St, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.355518,
-                "location_type": 1,
-                "longitude": -71.060225,
-                "municipality": "Boston",
-                "name": "Downtown Crossing",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-dwnxg",
-            "links": {
-                "self": "/stops/place-dwnxg"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-dwnxg"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Washington St and Hyde Park Ave, Jamaica Plain, MA 02130",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.300713,
-                "location_type": 1,
-                "longitude": -71.113943,
-                "municipality": "Boston",
-                "name": "Forest Hills",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-forhl",
-            "links": {
-                "self": "/stops/place-forhl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-forhl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-1A",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "150 Green St, Jamaica Plain, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.310525,
-                "location_type": 1,
-                "longitude": -71.107414,
-                "municipality": "Boston",
-                "name": "Green Street",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-grnst",
-            "links": {
-                "self": "/stops/place-grnst"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-grnst"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "100 Boylston St, Jamaica Plain, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.317062,
-                "location_type": 1,
-                "longitude": -71.104248,
-                "municipality": "Boston",
-                "name": "Stony Brook",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-sbmnl",
-            "links": {
-                "self": "/stops/place-sbmnl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-sbmnl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "1500 Columbus Ave, Jamaica Plain, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.323132,
-                "location_type": 1,
-                "longitude": -71.099592,
-                "municipality": "Boston",
-                "name": "Jackson Square",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-jaksn",
-            "links": {
-                "self": "/stops/place-jaksn"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-jaksn"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "1400 Tremont St, Roxbury, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.331397,
-                "location_type": 1,
-                "longitude": -71.095451,
-                "municipality": "Boston",
-                "name": "Roxbury Crossing",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-rcmnl",
-            "links": {
-                "self": "/stops/place-rcmnl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-rcmnl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "1150 Tremont St, Roxbury, MA 02120",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.336377,
-                "location_type": 1,
-                "longitude": -71.088961,
-                "municipality": "Boston",
-                "name": "Ruggles",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-rugg",
-            "links": {
-                "self": "/stops/place-rugg"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-rugg"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-1A",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "393 Massachusetts Ave, Boston, MA 02118",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.341512,
-                "location_type": 1,
-                "longitude": -71.083423,
-                "municipality": "Boston",
-                "name": "Massachusetts Avenue",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-masta",
-            "links": {
-                "self": "/stops/place-masta"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-masta"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "145 Dartmouth St Boston, MA 02116",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.34735,
-                "location_type": 1,
-                "longitude": -71.075727,
-                "municipality": "Boston",
-                "name": "Back Bay",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-bbsta",
-            "links": {
-                "self": "/stops/place-bbsta"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-bbsta"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-1A",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "2 Washington Sq, Worcester, MA 01608",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.261835,
-                "location_type": 1,
-                "longitude": -71.791806,
-                "municipality": "Worcester",
-                "name": "Worcester",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-WML-0442",
-            "links": {
-                "self": "/stops/place-WML-0442"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0442"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-8",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "1 Pine St, North Grafton, MA 01536-1856",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.2466,
-                "location_type": 1,
-                "longitude": -71.685325,
-                "municipality": "Grafton",
-                "name": "Grafton",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-WML-0364",
-            "links": {
-                "self": "/stops/place-WML-0364"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0364"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-8",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Smith Pkwy and Fisher St, Westborough, MA 01581",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.269644,
-                "location_type": 1,
-                "longitude": -71.647076,
-                "municipality": "Westborough",
-                "name": "Westborough",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-WML-0340",
-            "links": {
-                "self": "/stops/place-WML-0340"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0340"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-7",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "87 Southville Rd, Southborough, MA 01772",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.267024,
-                "location_type": 1,
-                "longitude": -71.524371,
-                "municipality": "Southborough",
-                "name": "Southborough",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-WML-0274",
-            "links": {
-                "self": "/stops/place-WML-0274"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0274"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-6",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Pleasant St and Cordaville Rd, Ashland, MA 01721",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.26149,
-                "location_type": 1,
-                "longitude": -71.482161,
-                "municipality": "Ashland",
-                "name": "Ashland",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-WML-0252",
-            "links": {
-                "self": "/stops/place-WML-0252"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0252"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-6",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "417 Waverly St, Framingham, MA 01702",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.276108,
-                "location_type": 1,
-                "longitude": -71.420055,
-                "municipality": "Framingham",
-                "name": "Framingham",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-WML-0214",
-            "links": {
-                "self": "/stops/place-WML-0214"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0214"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-5",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "249 West Central St, Natick, MA 01760",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.283064,
-                "location_type": 1,
-                "longitude": -71.391797,
-                "municipality": "Natick",
-                "name": "West Natick",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-WML-0199",
-            "links": {
-                "self": "/stops/place-WML-0199"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0199"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-4",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "1 Walnut St, Natick, MA 01760",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.285719,
-                "location_type": 1,
-                "longitude": -71.347133,
-                "municipality": "Natick",
-                "name": "Natick Center",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
+                "vehicle_type": 3,
                 "wheelchair_boarding": 2
             },
-            "id": "place-WML-0177",
+            "id": "111762",
             "links": {
-                "self": "/stops/place-WML-0177"
+                "self": "/stops/111762"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0177"
+                        "related": "/facilities/?filter[stop]=111762"
                     }
                 },
                 "parent_station": {
@@ -1692,1331 +674,9 @@
                 },
                 "zone": {
                     "data": {
-                        "id": "CR-zone-4",
+                        "id": "LocalBus",
                         "type": "zone"
                     }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "1 Grove St, Wellesley, MA 02482",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.297526,
-                "location_type": 1,
-                "longitude": -71.294173,
-                "municipality": "Wellesley",
-                "name": "Wellesley Square",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-WML-0147",
-            "links": {
-                "self": "/stops/place-WML-0147"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0147"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-3",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "341 Washington St, Wellesley, MA 02481",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.31037,
-                "location_type": 1,
-                "longitude": -71.277044,
-                "municipality": "Wellesley",
-                "name": "Wellesley Hills",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-WML-0135",
-            "links": {
-                "self": "/stops/place-WML-0135"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0135"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-3",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "90 Croton St, Wellesley, MA 02481",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.323608,
-                "location_type": 1,
-                "longitude": -71.272288,
-                "municipality": "Wellesley",
-                "name": "Wellesley Farms",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-WML-0125",
-            "links": {
-                "self": "/stops/place-WML-0125"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0125"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-3",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Auburn St and Woodland Rd, Newton, MA 02466",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.345833,
-                "location_type": 1,
-                "longitude": -71.250373,
-                "municipality": "Newton",
-                "name": "Auburndale",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-WML-0102",
-            "links": {
-                "self": "/stops/place-WML-0102"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0102"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-2",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "1395 Washington St, Newton, MA 02465",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.347878,
-                "location_type": 1,
-                "longitude": -71.230528,
-                "municipality": "Newton",
-                "name": "West Newton",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-WML-0091",
-            "links": {
-                "self": "/stops/place-WML-0091"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0091"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-2",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "770 Washington St, Newton, MA 02460",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.351702,
-                "location_type": 1,
-                "longitude": -71.205408,
-                "municipality": "Newton",
-                "name": "Newtonville",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-WML-0081",
-            "links": {
-                "self": "/stops/place-WML-0081"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0081"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-1",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "100 Arthur St, Boston, MA 02134",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.357293,
-                "location_type": 1,
-                "longitude": -71.139883,
-                "municipality": "Boston",
-                "name": "Boston Landing",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-WML-0035",
-            "links": {
-                "self": "/stops/place-WML-0035"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0035"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-1A",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "25 David Ortiz Dr, Boston, MA 02215",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.347581,
-                "location_type": 1,
-                "longitude": -71.099974,
-                "municipality": "Boston",
-                "name": "Lansdowne",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-WML-0025",
-            "links": {
-                "self": "/stops/place-WML-0025"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-WML-0025"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-1A",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "750 Washington St, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.349662,
-                "location_type": 1,
-                "longitude": -71.063917,
-                "municipality": "Boston",
-                "name": "Tufts Medical Center",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-tumnl",
-            "links": {
-                "self": "/stops/place-tumnl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-tumnl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Washington St and Boylston St, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.352547,
-                "location_type": 1,
-                "longitude": -71.062752,
-                "municipality": "Boston",
-                "name": "Chinatown",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-chncl",
-            "links": {
-                "self": "/stops/place-chncl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-chncl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Tremont St and Winter St, Boston, MA 02108",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.356395,
-                "location_type": 1,
-                "longitude": -71.062424,
-                "municipality": "Boston",
-                "name": "Park Street",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-pktrm",
-            "links": {
-                "self": "/stops/place-pktrm"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-pktrm"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Alewife Brook Pkwy and Cambridge Park Dr, Cambridge, MA 02140",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.39583,
-                "location_type": 1,
-                "longitude": -71.141287,
-                "municipality": "Cambridge",
-                "name": "Alewife",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-alfcl",
-            "links": {
-                "self": "/stops/place-alfcl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-alfcl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "College Ave and Elm St, Somerville, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.39674,
-                "location_type": 1,
-                "longitude": -71.121815,
-                "municipality": "Somerville",
-                "name": "Davis",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-davis",
-            "links": {
-                "self": "/stops/place-davis"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-davis"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "1899 Massachusetts Ave, Cambridge, MA 02140",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.3884,
-                "location_type": 1,
-                "longitude": -71.119149,
-                "municipality": "Cambridge",
-                "name": "Porter",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-portr",
-            "links": {
-                "self": "/stops/place-portr"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-portr"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": {
-                        "id": "CR-zone-1A",
-                        "type": "zone"
-                    }
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "1400 Massachusetts Ave, Cambridge, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.373362,
-                "location_type": 1,
-                "longitude": -71.118956,
-                "municipality": "Cambridge",
-                "name": "Harvard",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-harsq",
-            "links": {
-                "self": "/stops/place-harsq"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-harsq"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Massachusetts Ave and Prospect St, Cambridge, MA 02139",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.365486,
-                "location_type": 1,
-                "longitude": -71.103802,
-                "municipality": "Cambridge",
-                "name": "Central",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-cntsq",
-            "links": {
-                "self": "/stops/place-cntsq"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-cntsq"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "300 Main St, Cambridge, MA 02142",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.362491,
-                "location_type": 1,
-                "longitude": -71.086176,
-                "municipality": "Cambridge",
-                "name": "Kendall/MIT",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-knncl",
-            "links": {
-                "self": "/stops/place-knncl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-knncl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Cambridge St and Charles St, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.361166,
-                "location_type": 1,
-                "longitude": -71.070628,
-                "municipality": "Boston",
-                "name": "Charles/MGH",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-chmnl",
-            "links": {
-                "self": "/stops/place-chmnl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-chmnl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Boylston St and Tremont St, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.35302,
-                "location_type": 1,
-                "longitude": -71.06459,
-                "municipality": "Boston",
-                "name": "Boylston",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-boyls",
-            "links": {
-                "self": "/stops/place-boyls"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-boyls"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Arlington St and Boylston St, Boston, MA 02116",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.351902,
-                "location_type": 1,
-                "longitude": -71.070893,
-                "municipality": "Boston",
-                "name": "Arlington",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-armnl",
-            "links": {
-                "self": "/stops/place-armnl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-armnl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Boylston St and Dartmouth St, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.349974,
-                "location_type": 1,
-                "longitude": -71.077447,
-                "municipality": "Boston",
-                "name": "Copley",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-coecl",
-            "links": {
-                "self": "/stops/place-coecl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-coecl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "100 Massachusetts Ave, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.347888,
-                "location_type": 1,
-                "longitude": -71.087903,
-                "municipality": "Boston",
-                "name": "Hynes Convention Center",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-hymnl",
-            "links": {
-                "self": "/stops/place-hymnl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-hymnl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commonwealth Ave and Kenmore St, Boston, MA 02215",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.348949,
-                "location_type": 1,
-                "longitude": -71.095169,
-                "municipality": "Boston",
-                "name": "Kenmore",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-kencl",
-            "links": {
-                "self": "/stops/place-kencl"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-kencl"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commonwealth Ave and Blandford Mall, Boston, MA 02215",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.349293,
-                "location_type": 1,
-                "longitude": -71.100258,
-                "municipality": "Boston",
-                "name": "Blandford Street",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-bland",
-            "links": {
-                "self": "/stops/place-bland"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-bland"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commonwealth Ave and Granby St, Boston, MA 02215",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.349735,
-                "location_type": 1,
-                "longitude": -71.103889,
-                "municipality": "Boston",
-                "name": "Boston University East",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-buest",
-            "links": {
-                "self": "/stops/place-buest"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-buest"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commonwealth Ave and Marsh Chapel, Boston, MA 02215",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.350082,
-                "location_type": 1,
-                "longitude": -71.106865,
-                "municipality": "Boston",
-                "name": "Boston University Central",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-bucen",
-            "links": {
-                "self": "/stops/place-bucen"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-bucen"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commonwealth Ave and Amory St, Boston, MA 02215",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.350992,
-                "location_type": 1,
-                "longitude": -71.114748,
-                "municipality": "Boston",
-                "name": "Amory Street",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-amory",
-            "links": {
-                "self": "/stops/place-amory"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-amory"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commonwealth Ave and Babcock St, Boston, MA 02215",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.351616,
-                "location_type": 1,
-                "longitude": -71.119924,
-                "municipality": "Boston",
-                "name": "Babcock Street",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-babck",
-            "links": {
-                "self": "/stops/place-babck"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-babck"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commonwealth Ave and Brighton Ave, Boston, MA 02215",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.351967,
-                "location_type": 1,
-                "longitude": -71.125031,
-                "municipality": "Boston",
-                "name": "Packard's Corner",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-brico",
-            "links": {
-                "self": "/stops/place-brico"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-brico"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commonwealth Ave and Harvard Ave, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.350243,
-                "location_type": 1,
-                "longitude": -71.131355,
-                "municipality": "Boston",
-                "name": "Harvard Avenue",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-harvd",
-            "links": {
-                "self": "/stops/place-harvd"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-harvd"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commonwealth Ave and Griggs St, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.348545,
-                "location_type": 1,
-                "longitude": -71.134949,
-                "municipality": "Boston",
-                "name": "Griggs Street",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-grigg",
-            "links": {
-                "self": "/stops/place-grigg"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-grigg"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Allston St and Commonwealth Ave, Boston, MA 02134",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.348701,
-                "location_type": 1,
-                "longitude": -71.137955,
-                "municipality": "Boston",
-                "name": "Allston Street",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-alsgr",
-            "links": {
-                "self": "/stops/place-alsgr"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-alsgr"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commonwealth Ave and Warren St, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.348343,
-                "location_type": 1,
-                "longitude": -71.140457,
-                "municipality": "Boston",
-                "name": "Warren Street",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-wrnst",
-            "links": {
-                "self": "/stops/place-wrnst"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-wrnst"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commonwealth Ave and Washington St, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.343864,
-                "location_type": 1,
-                "longitude": -71.142853,
-                "municipality": "Boston",
-                "name": "Washington Street",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 1
-            },
-            "id": "place-wascm",
-            "links": {
-                "self": "/stops/place-wascm"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-wascm"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commonwealth Ave and Sutherland Rd, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.341614,
-                "location_type": 1,
-                "longitude": -71.146202,
-                "municipality": "Boston",
-                "name": "Sutherland Road",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-sthld",
-            "links": {
-                "self": "/stops/place-sthld"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-sthld"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commonwealth Ave and Chiswick Rd, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.340805,
-                "location_type": 1,
-                "longitude": -71.150711,
-                "municipality": "Boston",
-                "name": "Chiswick Road",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-chswk",
-            "links": {
-                "self": "/stops/place-chswk"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-chswk"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
-                }
-            },
-            "type": "stop"
-        },
-        {
-            "attributes": {
-                "address": "Commonwealth Ave and Chestnut Hill Ave, Boston, MA",
-                "at_street": null,
-                "description": null,
-                "latitude": 42.338169,
-                "location_type": 1,
-                "longitude": -71.15316,
-                "municipality": "Boston",
-                "name": "Chestnut Hill Avenue",
-                "on_street": null,
-                "platform_code": null,
-                "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
-            },
-            "id": "place-chill",
-            "links": {
-                "self": "/stops/place-chill"
-            },
-            "relationships": {
-                "facilities": {
-                    "links": {
-                        "related": "/facilities/?filter[stop]=place-chill"
-                    }
-                },
-                "parent_station": {
-                    "data": null
-                },
-                "zone": {
-                    "data": null
                 }
             },
             "type": "stop"
@@ -3026,67 +686,453 @@
                 "address": null,
                 "at_street": null,
                 "description": null,
-                "latitude": 42.3396,
-                "location_type": 1,
-                "longitude": -71.157661,
-                "municipality": "Boston",
-                "name": "South Street",
-                "on_street": null,
+                "latitude": 42.235159,
+                "location_type": 0,
+                "longitude": -71.111037,
+                "municipality": "Milton",
+                "name": "Blue Hill Ave @ Curry College",
+                "on_street": "Blue Hill Avenue",
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
-                "wheelchair_boarding": 2
+                "vehicle_type": 3,
+                "wheelchair_boarding": 1
             },
-            "id": "place-sougr",
+            "id": "121008",
             "links": {
-                "self": "/stops/place-sougr"
+                "self": "/stops/121008"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-sougr"
+                        "related": "/facilities/?filter[stop]=121008"
                     }
                 },
                 "parent_station": {
                     "data": null
                 },
                 "zone": {
-                    "data": null
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
                 }
             },
             "type": "stop"
         },
         {
             "attributes": {
-                "address": "Commonwealth Ave and Lake St, Boston, MA 02135",
+                "address": null,
                 "at_street": null,
                 "description": null,
-                "latitude": 42.340081,
-                "location_type": 1,
-                "longitude": -71.166769,
-                "municipality": "Boston",
-                "name": "Boston College",
-                "on_street": null,
+                "latitude": 42.226417,
+                "location_type": 0,
+                "longitude": -71.116431,
+                "municipality": "Milton",
+                "name": "Blue Hill Ave from Curry Coll to Canton Ave (FLAG)",
+                "on_street": "Blue Hill Avenue",
                 "platform_code": null,
                 "platform_name": null,
-                "vehicle_type": null,
+                "vehicle_type": 3,
                 "wheelchair_boarding": 1
             },
-            "id": "place-lake",
+            "id": "121009",
             "links": {
-                "self": "/stops/place-lake"
+                "self": "/stops/121009"
             },
             "relationships": {
                 "facilities": {
                     "links": {
-                        "related": "/facilities/?filter[stop]=place-lake"
+                        "related": "/facilities/?filter[stop]=121009"
                     }
                 },
                 "parent_station": {
                     "data": null
                 },
                 "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
+                }
+            },
+            "type": "stop"
+        },
+        {
+            "attributes": {
+                "address": null,
+                "at_street": null,
+                "description": null,
+                "latitude": 42.218345,
+                "location_type": 0,
+                "longitude": -71.11952,
+                "municipality": "Milton",
+                "name": "Opp 1904 Canton Ave @ Trailside Museum",
+                "on_street": "Canton Avenue",
+                "platform_code": null,
+                "platform_name": null,
+                "vehicle_type": 3,
+                "wheelchair_boarding": 2
+            },
+            "id": "121010",
+            "links": {
+                "self": "/stops/121010"
+            },
+            "relationships": {
+                "facilities": {
+                    "links": {
+                        "related": "/facilities/?filter[stop]=121010"
+                    }
+                },
+                "parent_station": {
                     "data": null
+                },
+                "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
+                }
+            },
+            "type": "stop"
+        },
+        {
+            "attributes": {
+                "address": null,
+                "at_street": null,
+                "description": null,
+                "latitude": 42.197154,
+                "location_type": 0,
+                "longitude": -71.119299,
+                "municipality": "Canton",
+                "name": "Washington St from Royall St to Turnpike St (FLAG)",
+                "on_street": "Washington Street",
+                "platform_code": null,
+                "platform_name": null,
+                "vehicle_type": 3,
+                "wheelchair_boarding": 1
+            },
+            "id": "111775",
+            "links": {
+                "self": "/stops/111775"
+            },
+            "relationships": {
+                "facilities": {
+                    "links": {
+                        "related": "/facilities/?filter[stop]=111775"
+                    }
+                },
+                "parent_station": {
+                    "data": null
+                },
+                "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
+                }
+            },
+            "type": "stop"
+        },
+        {
+            "attributes": {
+                "address": null,
+                "at_street": "Randolph Street",
+                "description": null,
+                "latitude": 42.176598,
+                "location_type": 0,
+                "longitude": -71.13143,
+                "municipality": "Canton",
+                "name": "Washington St - Pecunit St to Pleasant St (FLAG)",
+                "on_street": "Washington Street",
+                "platform_code": null,
+                "platform_name": null,
+                "vehicle_type": 3,
+                "wheelchair_boarding": 1
+            },
+            "id": "111787",
+            "links": {
+                "self": "/stops/111787"
+            },
+            "relationships": {
+                "facilities": {
+                    "links": {
+                        "related": "/facilities/?filter[stop]=111787"
+                    }
+                },
+                "parent_station": {
+                    "data": null
+                },
+                "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
+                }
+            },
+            "type": "stop"
+        },
+        {
+            "attributes": {
+                "address": null,
+                "at_street": "Draper Street",
+                "description": null,
+                "latitude": 42.172526,
+                "location_type": 0,
+                "longitude": -71.139085,
+                "municipality": "Canton",
+                "name": "Washington St - Pleasant St to Chapman St (FLAG)",
+                "on_street": "Washington Street",
+                "platform_code": null,
+                "platform_name": null,
+                "vehicle_type": 3,
+                "wheelchair_boarding": 1
+            },
+            "id": "111791",
+            "links": {
+                "self": "/stops/111791"
+            },
+            "relationships": {
+                "facilities": {
+                    "links": {
+                        "related": "/facilities/?filter[stop]=111791"
+                    }
+                },
+                "parent_station": {
+                    "data": null
+                },
+                "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
+                }
+            },
+            "type": "stop"
+        },
+        {
+            "attributes": {
+                "address": null,
+                "at_street": "Wildwood Drive",
+                "description": null,
+                "latitude": 42.165614,
+                "location_type": 0,
+                "longitude": -71.142813,
+                "municipality": "Canton",
+                "name": "Washington St from Chapman St to Lewis St (FLAG)",
+                "on_street": "Washington Street",
+                "platform_code": null,
+                "platform_name": null,
+                "vehicle_type": 3,
+                "wheelchair_boarding": 1
+            },
+            "id": "111796",
+            "links": {
+                "self": "/stops/111796"
+            },
+            "relationships": {
+                "facilities": {
+                    "links": {
+                        "related": "/facilities/?filter[stop]=111796"
+                    }
+                },
+                "parent_station": {
+                    "data": null
+                },
+                "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
+                }
+            },
+            "type": "stop"
+        },
+        {
+            "attributes": {
+                "address": null,
+                "at_street": "Sherman Street",
+                "description": null,
+                "latitude": 42.159019,
+                "location_type": 0,
+                "longitude": -71.145006,
+                "municipality": "Canton",
+                "name": "Washington St - Lewis St to Canton Ctr sta (FLAG)",
+                "on_street": "Washington Street",
+                "platform_code": null,
+                "platform_name": null,
+                "vehicle_type": 3,
+                "wheelchair_boarding": 1
+            },
+            "id": "111801",
+            "links": {
+                "self": "/stops/111801"
+            },
+            "relationships": {
+                "facilities": {
+                    "links": {
+                        "related": "/facilities/?filter[stop]=111801"
+                    }
+                },
+                "parent_station": {
+                    "data": null
+                },
+                "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
+                }
+            },
+            "type": "stop"
+        },
+        {
+            "attributes": {
+                "address": null,
+                "at_street": "Centre Street",
+                "description": null,
+                "latitude": 42.156685,
+                "location_type": 0,
+                "longitude": -71.145661,
+                "municipality": "Canton",
+                "name": "Washington St @ Canton Center Station",
+                "on_street": "Washington Street",
+                "platform_code": null,
+                "platform_name": null,
+                "vehicle_type": 3,
+                "wheelchair_boarding": 1
+            },
+            "id": "111803",
+            "links": {
+                "self": "/stops/111803"
+            },
+            "relationships": {
+                "facilities": {
+                    "links": {
+                        "related": "/facilities/?filter[stop]=111803"
+                    }
+                },
+                "parent_station": {
+                    "data": null
+                },
+                "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
+                }
+            },
+            "type": "stop"
+        },
+        {
+            "attributes": {
+                "address": null,
+                "at_street": "Forge Pond",
+                "description": null,
+                "latitude": 42.154326,
+                "location_type": 0,
+                "longitude": -71.145862,
+                "municipality": "Canton",
+                "name": "Washington St - Canton Ctr Sta to Church St (FLAG)",
+                "on_street": "Washington Street",
+                "platform_code": null,
+                "platform_name": null,
+                "vehicle_type": 3,
+                "wheelchair_boarding": 1
+            },
+            "id": "111806",
+            "links": {
+                "self": "/stops/111806"
+            },
+            "relationships": {
+                "facilities": {
+                    "links": {
+                        "related": "/facilities/?filter[stop]=111806"
+                    }
+                },
+                "parent_station": {
+                    "data": null
+                },
+                "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
+                }
+            },
+            "type": "stop"
+        },
+        {
+            "attributes": {
+                "address": null,
+                "at_street": "Capen Place",
+                "description": null,
+                "latitude": 42.150784,
+                "location_type": 0,
+                "longitude": -71.149384,
+                "municipality": "Canton",
+                "name": "Washington St from Church St to High St (FLAG)",
+                "on_street": "Washington Street",
+                "platform_code": null,
+                "platform_name": null,
+                "vehicle_type": 3,
+                "wheelchair_boarding": 1
+            },
+            "id": "111810",
+            "links": {
+                "self": "/stops/111810"
+            },
+            "relationships": {
+                "facilities": {
+                    "links": {
+                        "related": "/facilities/?filter[stop]=111810"
+                    }
+                },
+                "parent_station": {
+                    "data": null
+                },
+                "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
+                }
+            },
+            "type": "stop"
+        },
+        {
+            "attributes": {
+                "address": null,
+                "at_street": "Kinsley Place",
+                "description": null,
+                "latitude": 42.14423,
+                "location_type": 0,
+                "longitude": -71.149281,
+                "municipality": "Canton",
+                "name": "Washington St from High St to Cobbs Corner (FLAG)",
+                "on_street": "Washington Street",
+                "platform_code": null,
+                "platform_name": null,
+                "vehicle_type": 3,
+                "wheelchair_boarding": 1
+            },
+            "id": "111815",
+            "links": {
+                "self": "/stops/111815"
+            },
+            "relationships": {
+                "facilities": {
+                    "links": {
+                        "related": "/facilities/?filter[stop]=111815"
+                    }
+                },
+                "parent_station": {
+                    "data": null
+                },
+                "zone": {
+                    "data": {
+                        "id": "LocalBus",
+                        "type": "zone"
+                    }
                 }
             },
             "type": "stop"
