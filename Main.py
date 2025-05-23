@@ -58,3 +58,16 @@ while run:
         Alert_Helper.View_Alert_Data()
     elif choice == "9" or choice == "Kill":
         run = False
+
+"""
+params= {
+    "filter[route]": "Red,Orage,Blue,Green-B"
+}
+API_Helper.Get_Shapes(params=params)
+API_Helper.Get_Vehicles(params=params)
+API_Helper.Get_Trips(params=params)
+
+lines = "Red","Orange","Green-B"
+fig, axes = plt.subplots(figsize=(15, 9))
+Shape_Helper.Draw_All_Lines(lines, fig, axes)
+"""
