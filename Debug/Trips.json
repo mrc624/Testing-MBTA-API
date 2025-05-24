@@ -36130,9 +36130,9 @@
                 "revenue": "REVENUE",
                 "wheelchair_accessible": 1
             },
-            "id": "ADDED-1582369199",
+            "id": "ADDED-1582369253",
             "links": {
-                "self": "/trips/ADDED-1582369199"
+                "self": "/trips/ADDED-1582369253"
             },
             "relationships": {
                 "route": {
@@ -36169,9 +36169,9 @@
                 "revenue": "REVENUE",
                 "wheelchair_accessible": 1
             },
-            "id": "ADDED-1582369201",
+            "id": "ADDED-1582369259",
             "links": {
-                "self": "/trips/ADDED-1582369201"
+                "self": "/trips/ADDED-1582369259"
             },
             "relationships": {
                 "route": {

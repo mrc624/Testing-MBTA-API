@@ -2,166 +2,28 @@
     "data": [
         {
             "attributes": {
-                "bearing": 225,
-                "carriages": [
-                    {
-                        "label": "3087",
-                        "occupancy_status": "NO_DATA_AVAILABLE",
-                        "occupancy_percentage": null
-                    }
-                ],
-                "current_status": "INCOMING_AT",
-                "current_stop_sequence": 6,
-                "direction_id": 0,
-                "label": "3087",
-                "latitude": 42.26844,
-                "longitude": -71.0812,
-                "occupancy_status": null,
-                "revenue": "REVENUE",
-                "speed": 7.3,
-                "updated_at": "2025-05-23T17:21:11-04:00"
-            },
-            "id": "G-10218",
-            "links": {
-                "self": "/vehicles/G-10218"
-            },
-            "relationships": {
-                "route": {
-                    "data": {
-                        "id": "Mattapan",
-                        "type": "route"
-                    }
-                },
-                "stop": {
-                    "data": {
-                        "id": "70271",
-                        "type": "stop"
-                    }
-                },
-                "trip": {
-                    "data": {
-                        "id": "ADDED-1582369199",
-                        "type": "trip"
-                    }
-                }
-            },
-            "type": "vehicle"
-        },
-        {
-            "attributes": {
-                "bearing": 90,
-                "carriages": [
-                    {
-                        "label": "3234",
-                        "occupancy_status": "NO_DATA_AVAILABLE",
-                        "occupancy_percentage": null
-                    }
-                ],
-                "current_status": "IN_TRANSIT_TO",
-                "current_stop_sequence": null,
-                "direction_id": 1,
-                "label": "3234",
-                "latitude": 42.26756,
-                "longitude": -71.09225,
-                "occupancy_status": null,
-                "revenue": "REVENUE",
-                "speed": null,
-                "updated_at": "2025-05-23T17:20:46-04:00"
-            },
-            "id": "G-10123",
-            "links": {
-                "self": "/vehicles/G-10123"
-            },
-            "relationships": {
-                "route": {
-                    "data": {
-                        "id": "Mattapan",
-                        "type": "route"
-                    }
-                },
-                "stop": {
-                    "data": null
-                },
-                "trip": {
-                    "data": {
-                        "id": "68108313",
-                        "type": "trip"
-                    }
-                }
-            },
-            "type": "vehicle"
-        },
-        {
-            "attributes": {
-                "bearing": 45,
-                "carriages": [
-                    {
-                        "label": "3265",
-                        "occupancy_status": "NO_DATA_AVAILABLE",
-                        "occupancy_percentage": null
-                    }
-                ],
-                "current_status": "IN_TRANSIT_TO",
-                "current_stop_sequence": 7,
-                "direction_id": 1,
-                "label": "3265",
-                "latitude": 42.27255,
-                "longitude": -71.0623,
-                "occupancy_status": null,
-                "revenue": "REVENUE",
-                "speed": 4.4,
-                "updated_at": "2025-05-23T17:21:10-04:00"
-            },
-            "id": "G-10114",
-            "links": {
-                "self": "/vehicles/G-10114"
-            },
-            "relationships": {
-                "route": {
-                    "data": {
-                        "id": "Mattapan",
-                        "type": "route"
-                    }
-                },
-                "stop": {
-                    "data": {
-                        "id": "70264",
-                        "type": "stop"
-                    }
-                },
-                "trip": {
-                    "data": {
-                        "id": "68108365",
-                        "type": "trip"
-                    }
-                }
-            },
-            "type": "vehicle"
-        },
-        {
-            "attributes": {
                 "bearing": 135,
                 "carriages": [
                     {
-                        "label": "3263",
-                        "occupancy_status": "NO_DATA_AVAILABLE",
-                        "occupancy_percentage": null
+                        "label": "3087",
+                        "occupancy_percentage": null,
+                        "occupancy_status": "NO_DATA_AVAILABLE"
                     }
                 ],
                 "current_status": "INCOMING_AT",
                 "current_stop_sequence": 2,
                 "direction_id": 0,
-                "label": "3263",
-                "latitude": 42.28183,
-                "longitude": -71.0619,
+                "label": "3087",
+                "latitude": 42.28247,
+                "longitude": -71.06232,
                 "occupancy_status": null,
                 "revenue": "REVENUE",
-                "speed": 13.3,
-                "updated_at": "2025-05-23T17:21:12-04:00"
+                "speed": 12.7,
+                "updated_at": "2025-05-23T18:28:50-04:00"
             },
-            "id": "G-10063",
+            "id": "G-10218",
             "links": {
-                "self": "/vehicles/G-10063"
+                "self": "/vehicles/G-10218"
             },
             "relationships": {
                 "route": {
@@ -178,7 +40,145 @@
                 },
                 "trip": {
                     "data": {
-                        "id": "ADDED-1582369201",
+                        "id": "ADDED-1582369259",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 270,
+                "carriages": [
+                    {
+                        "label": "3234",
+                        "occupancy_percentage": null,
+                        "occupancy_status": "NO_DATA_AVAILABLE"
+                    }
+                ],
+                "current_status": "INCOMING_AT",
+                "current_stop_sequence": 7,
+                "direction_id": 0,
+                "label": "3234",
+                "latitude": 42.26742,
+                "longitude": -71.08607,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 11.3,
+                "updated_at": "2025-05-23T18:28:49-04:00"
+            },
+            "id": "G-10123",
+            "links": {
+                "self": "/vehicles/G-10123"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Mattapan",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70273",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "ADDED-1582369253",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 90,
+                "carriages": [
+                    {
+                        "label": "3265",
+                        "occupancy_percentage": null,
+                        "occupancy_status": "NO_DATA_AVAILABLE"
+                    }
+                ],
+                "current_status": "IN_TRANSIT_TO",
+                "current_stop_sequence": null,
+                "direction_id": 1,
+                "label": "3265",
+                "latitude": 42.26756,
+                "longitude": -71.09225,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": null,
+                "updated_at": "2025-05-23T18:28:26-04:00"
+            },
+            "id": "G-10114",
+            "links": {
+                "self": "/vehicles/G-10114"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Mattapan",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": null
+                },
+                "trip": {
+                    "data": {
+                        "id": "68108370",
+                        "type": "trip"
+                    }
+                }
+            },
+            "type": "vehicle"
+        },
+        {
+            "attributes": {
+                "bearing": 90,
+                "carriages": [
+                    {
+                        "label": "3263",
+                        "occupancy_percentage": null,
+                        "occupancy_status": "NO_DATA_AVAILABLE"
+                    }
+                ],
+                "current_status": "INCOMING_AT",
+                "current_stop_sequence": 5,
+                "direction_id": 1,
+                "label": "3263",
+                "latitude": 42.27029,
+                "longitude": -71.06853,
+                "occupancy_status": null,
+                "revenue": "REVENUE",
+                "speed": 11.7,
+                "updated_at": "2025-05-23T18:28:50-04:00"
+            },
+            "id": "G-10063",
+            "links": {
+                "self": "/vehicles/G-10063"
+            },
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Mattapan",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70268",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "68108352",
                         "type": "trip"
                     }
                 }

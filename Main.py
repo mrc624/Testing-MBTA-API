@@ -8,8 +8,12 @@ import Alert_Helper
 import Shape_Helper
 import Map_Helper
 import Route_Helper
+import Prediction_Helper
 
 import Discord_Helper
+
+ans = Prediction_Helper.Get_Next_Arrival_Data("place-gover","Green-B")
+
 Discord_Helper.Run_Bot()
 
 run = True
@@ -61,6 +65,8 @@ while run:
         Alert_Helper.View_Alert_Data()
     elif choice == "9" or choice == "Kill":
         run = False
+
+Discord_Helper.Run_Bot()
 
 """
 params= {
