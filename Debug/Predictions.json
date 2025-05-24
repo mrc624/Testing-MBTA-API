@@ -4,136 +4,7 @@
             "attributes": {
                 "arrival_time": null,
                 "arrival_uncertainty": null,
-                "departure_time": "2025-05-24T11:45:40-04:00",
-                "departure_uncertainty": 360,
-                "direction_id": 0,
-                "last_trip": false,
-                "revenue": "REVENUE",
-                "schedule_relationship": null,
-                "status": null,
-                "stop_sequence": 40,
-                "update_type": "REVERSE_TRIP"
-            },
-            "id": "prediction-68103591-70202-40-Green-B",
-            "relationships": {
-                "route": {
-                    "data": {
-                        "id": "Green-B",
-                        "type": "route"
-                    }
-                },
-                "stop": {
-                    "data": {
-                        "id": "70202",
-                        "type": "stop"
-                    }
-                },
-                "trip": {
-                    "data": {
-                        "id": "68103591",
-                        "type": "trip"
-                    }
-                },
-                "vehicle": {
-                    "data": {
-                        "id": "G-10126",
-                        "type": "vehicle"
-                    }
-                }
-            },
-            "type": "prediction"
-        },
-        {
-            "attributes": {
-                "arrival_time": null,
-                "arrival_uncertainty": null,
-                "departure_time": "2025-05-24T11:35:53-04:00",
-                "departure_uncertainty": 360,
-                "direction_id": 0,
-                "last_trip": false,
-                "revenue": "REVENUE",
-                "schedule_relationship": null,
-                "status": null,
-                "stop_sequence": 40,
-                "update_type": "REVERSE_TRIP"
-            },
-            "id": "prediction-68103577-70202-40-Green-B",
-            "relationships": {
-                "route": {
-                    "data": {
-                        "id": "Green-B",
-                        "type": "route"
-                    }
-                },
-                "stop": {
-                    "data": {
-                        "id": "70202",
-                        "type": "stop"
-                    }
-                },
-                "trip": {
-                    "data": {
-                        "id": "68103577",
-                        "type": "trip"
-                    }
-                },
-                "vehicle": {
-                    "data": {
-                        "id": "G-10051",
-                        "type": "vehicle"
-                    }
-                }
-            },
-            "type": "prediction"
-        },
-        {
-            "attributes": {
-                "arrival_time": null,
-                "arrival_uncertainty": null,
-                "departure_time": "2025-05-24T11:55:36-04:00",
-                "departure_uncertainty": 360,
-                "direction_id": 0,
-                "last_trip": false,
-                "revenue": "REVENUE",
-                "schedule_relationship": null,
-                "status": null,
-                "stop_sequence": 40,
-                "update_type": "REVERSE_TRIP"
-            },
-            "id": "prediction-68103567-70202-40-Green-B",
-            "relationships": {
-                "route": {
-                    "data": {
-                        "id": "Green-B",
-                        "type": "route"
-                    }
-                },
-                "stop": {
-                    "data": {
-                        "id": "70202",
-                        "type": "stop"
-                    }
-                },
-                "trip": {
-                    "data": {
-                        "id": "68103567",
-                        "type": "trip"
-                    }
-                },
-                "vehicle": {
-                    "data": {
-                        "id": "G-10068",
-                        "type": "vehicle"
-                    }
-                }
-            },
-            "type": "prediction"
-        },
-        {
-            "attributes": {
-                "arrival_time": null,
-                "arrival_uncertainty": null,
-                "departure_time": "2025-05-24T12:01:21-04:00",
+                "departure_time": "2025-05-24T12:03:55-04:00",
                 "departure_uncertainty": 360,
                 "direction_id": 0,
                 "last_trip": false,
@@ -176,7 +47,7 @@
             "attributes": {
                 "arrival_time": null,
                 "arrival_uncertainty": null,
-                "departure_time": "2025-05-24T12:11:40-04:00",
+                "departure_time": "2025-05-24T12:13:24-04:00",
                 "departure_uncertainty": 360,
                 "direction_id": 0,
                 "last_trip": false,
@@ -217,19 +88,19 @@
         },
         {
             "attributes": {
-                "arrival_time": "2025-05-24T11:31:12-04:00",
-                "arrival_uncertainty": 60,
-                "departure_time": null,
-                "departure_uncertainty": null,
-                "direction_id": 1,
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2025-05-24T12:19:53-04:00",
+                "departure_uncertainty": 360,
+                "direction_id": 0,
                 "last_trip": false,
                 "revenue": "REVENUE",
                 "schedule_relationship": null,
                 "status": null,
-                "stop_sequence": 610,
-                "update_type": "MID_TRIP"
+                "stop_sequence": 40,
+                "update_type": "REVERSE_TRIP"
             },
-            "id": "prediction-68104205-70201-610-Green-B",
+            "id": "prediction-68103552-70202-40-Green-B",
             "relationships": {
                 "route": {
                     "data": {
@@ -239,19 +110,19 @@
                 },
                 "stop": {
                     "data": {
-                        "id": "70201",
+                        "id": "70202",
                         "type": "stop"
                     }
                 },
                 "trip": {
                     "data": {
-                        "id": "68104205",
+                        "id": "68103552",
                         "type": "trip"
                     }
                 },
                 "vehicle": {
                     "data": {
-                        "id": "G-10051",
+                        "id": "G-10059",
                         "type": "vehicle"
                     }
                 }
@@ -260,19 +131,19 @@
         },
         {
             "attributes": {
-                "arrival_time": "2025-05-24T11:40:59-04:00",
-                "arrival_uncertainty": 60,
-                "departure_time": null,
-                "departure_uncertainty": null,
-                "direction_id": 1,
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2025-05-24T12:25:34-04:00",
+                "departure_uncertainty": 360,
+                "direction_id": 0,
                 "last_trip": false,
                 "revenue": "REVENUE",
                 "schedule_relationship": null,
                 "status": null,
-                "stop_sequence": 610,
-                "update_type": "MID_TRIP"
+                "stop_sequence": 40,
+                "update_type": "REVERSE_TRIP"
             },
-            "id": "prediction-68103592-70201-610-Green-B",
+            "id": "prediction-68103543-70202-40-Green-B",
             "relationships": {
                 "route": {
                     "data": {
@@ -282,19 +153,19 @@
                 },
                 "stop": {
                     "data": {
-                        "id": "70201",
+                        "id": "70202",
                         "type": "stop"
                     }
                 },
                 "trip": {
                     "data": {
-                        "id": "68103592",
+                        "id": "68103543",
                         "type": "trip"
                     }
                 },
                 "vehicle": {
                     "data": {
-                        "id": "G-10126",
+                        "id": "G-10097",
                         "type": "vehicle"
                     }
                 }
@@ -303,19 +174,19 @@
         },
         {
             "attributes": {
-                "arrival_time": "2025-05-24T11:50:55-04:00",
-                "arrival_uncertainty": 60,
-                "departure_time": null,
-                "departure_uncertainty": null,
-                "direction_id": 1,
+                "arrival_time": null,
+                "arrival_uncertainty": null,
+                "departure_time": "2025-05-24T12:36:25-04:00",
+                "departure_uncertainty": 360,
+                "direction_id": 0,
                 "last_trip": false,
                 "revenue": "REVENUE",
                 "schedule_relationship": null,
                 "status": null,
-                "stop_sequence": 610,
-                "update_type": "MID_TRIP"
+                "stop_sequence": 40,
+                "update_type": "REVERSE_TRIP"
             },
-            "id": "prediction-68103581-70201-610-Green-B",
+            "id": "prediction-68103513-70202-40-Green-B",
             "relationships": {
                 "route": {
                     "data": {
@@ -325,19 +196,19 @@
                 },
                 "stop": {
                     "data": {
-                        "id": "70201",
+                        "id": "70202",
                         "type": "stop"
                     }
                 },
                 "trip": {
                     "data": {
-                        "id": "68103581",
+                        "id": "68103513",
                         "type": "trip"
                     }
                 },
                 "vehicle": {
                     "data": {
-                        "id": "G-10068",
+                        "id": "G-10147",
                         "type": "vehicle"
                     }
                 }
@@ -346,7 +217,7 @@
         },
         {
             "attributes": {
-                "arrival_time": "2025-05-24T11:56:40-04:00",
+                "arrival_time": "2025-05-24T11:59:19-04:00",
                 "arrival_uncertainty": 60,
                 "departure_time": null,
                 "departure_uncertainty": null,
@@ -389,7 +260,7 @@
         },
         {
             "attributes": {
-                "arrival_time": "2025-05-24T12:06:59-04:00",
+                "arrival_time": "2025-05-24T12:08:48-04:00",
                 "arrival_uncertainty": 60,
                 "departure_time": null,
                 "departure_uncertainty": null,
@@ -424,6 +295,135 @@
                 "vehicle": {
                     "data": {
                         "id": "G-10013",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2025-05-24T12:15:17-04:00",
+                "arrival_uncertainty": 60,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "last_trip": false,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 610,
+                "update_type": "MID_TRIP"
+            },
+            "id": "prediction-68103542-70201-610-Green-B",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-B",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70201",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "68103542",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10059",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2025-05-24T12:20:58-04:00",
+                "arrival_uncertainty": 60,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "last_trip": false,
+                "revenue": "REVENUE",
+                "schedule_relationship": null,
+                "status": null,
+                "stop_sequence": 610,
+                "update_type": "MID_TRIP"
+            },
+            "id": "prediction-68103544-70201-610-Green-B",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-B",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70201",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "68103544",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10097",
+                        "type": "vehicle"
+                    }
+                }
+            },
+            "type": "prediction"
+        },
+        {
+            "attributes": {
+                "arrival_time": "2025-05-24T12:31:49-04:00",
+                "arrival_uncertainty": 60,
+                "departure_time": null,
+                "departure_uncertainty": null,
+                "direction_id": 1,
+                "last_trip": false,
+                "revenue": "REVENUE",
+                "schedule_relationship": "ADDED",
+                "status": null,
+                "stop_sequence": 610,
+                "update_type": "MID_TRIP"
+            },
+            "id": "prediction-ADDED-1582370042-70201-610-Green-B",
+            "relationships": {
+                "route": {
+                    "data": {
+                        "id": "Green-B",
+                        "type": "route"
+                    }
+                },
+                "stop": {
+                    "data": {
+                        "id": "70201",
+                        "type": "stop"
+                    }
+                },
+                "trip": {
+                    "data": {
+                        "id": "ADDED-1582370042",
+                        "type": "trip"
+                    }
+                },
+                "vehicle": {
+                    "data": {
+                        "id": "G-10147",
                         "type": "vehicle"
                     }
                 }

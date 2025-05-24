@@ -3,6 +3,7 @@ import os
 import asyncio
 from discord.ext import commands
 from dotenv import load_dotenv
+import time
 from datetime import datetime
 import Stop_Helper
 import Route_Helper
@@ -115,24 +116,32 @@ async def pick_stop(ctx):
     prediction_display = [ ]
     prediction_display.append("Inbound:")
     if prediction_data[Prediction_Helper.INBOUND_FLAG][Prediction_Helper.ARRIVAL_FLAG][Prediction_Helper.TIME_FLAG] is not None:
-        prediction_display.append("\tNext Arrival: " + str(datetime.fromisoformat(str(prediction_data[Prediction_Helper.INBOUND_FLAG][Prediction_Helper.ARRIVAL_FLAG][Prediction_Helper.TIME_FLAG]))))
+        arrive_time = datetime.fromisoformat(str(prediction_data[Prediction_Helper.INBOUND_FLAG][Prediction_Helper.ARRIVAL_FLAG][Prediction_Helper.TIME_FLAG]))
+        wait_time = arrive_time - datetime.now(arrive_time.tzinfo)
+        prediction_display.append("\tNext Arrival: " + str(arrive_time) + " (" + str(wait_time) + ")")
         prediction_display.append("\tUncertainty: " + str(prediction_data[Prediction_Helper.INBOUND_FLAG][Prediction_Helper.ARRIVAL_FLAG][Prediction_Helper.UNCERTAINTY_FLAG]))
     else:
         prediction_display.append("\tNext Arrival: Unknown")
     if prediction_data[Prediction_Helper.INBOUND_FLAG][Prediction_Helper.DEPARTURE_FLAG][Prediction_Helper.TIME_FLAG] is not None:
-        prediction_display.append("\tNext Departure: " + str(datetime.fromisoformat(str(prediction_data[Prediction_Helper.INBOUND_FLAG][Prediction_Helper.DEPARTURE_FLAG][Prediction_Helper.TIME_FLAG]))))
+        depart_time = datetime.fromisoformat(str(prediction_data[Prediction_Helper.INBOUND_FLAG][Prediction_Helper.DEPARTURE_FLAG][Prediction_Helper.TIME_FLAG]))
+        wait_time = depart_time - datetime.now(depart_time.tzinfo)
+        prediction_display.append("\tNext Departure: " + str(depart_time) + " (" + str(wait_time) + ")")
         prediction_display.append("\tUncertainty: " + str(prediction_data[Prediction_Helper.INBOUND_FLAG][Prediction_Helper.DEPARTURE_FLAG][Prediction_Helper.UNCERTAINTY_FLAG]))
     else:
         prediction_display.append("\tNext Departure: Unknown")
 
     prediction_display.append("Outbound:")
     if prediction_data[Prediction_Helper.OUTBOUND_FLAG][Prediction_Helper.ARRIVAL_FLAG][Prediction_Helper.TIME_FLAG] is not None:
-        prediction_display.append("\tNext Arrival: " + str(datetime.fromisoformat(str(prediction_data[Prediction_Helper.OUTBOUND_FLAG][Prediction_Helper.ARRIVAL_FLAG][Prediction_Helper.TIME_FLAG]))))
+        arrive_time = datetime.fromisoformat(str(prediction_data[Prediction_Helper.OUTBOUND_FLAG][Prediction_Helper.ARRIVAL_FLAG][Prediction_Helper.TIME_FLAG]))
+        wait_time = arrive_time - datetime.now(arrive_time.tzinfo)
+        prediction_display.append("\tNext Arrival: " + str(arrive_time) + " (" + str(wait_time) + ")")
         prediction_display.append("\tUncertainty: " + str(prediction_data[Prediction_Helper.OUTBOUND_FLAG][Prediction_Helper.ARRIVAL_FLAG][Prediction_Helper.UNCERTAINTY_FLAG]))
     else:
         prediction_display.append("\tNext Arrival: Unknown")
     if prediction_data[Prediction_Helper.OUTBOUND_FLAG][Prediction_Helper.DEPARTURE_FLAG][Prediction_Helper.TIME_FLAG] is not None:
-        prediction_display.append("\tNext Departure: " + str(datetime.fromisoformat(str(prediction_data[Prediction_Helper.OUTBOUND_FLAG][Prediction_Helper.DEPARTURE_FLAG][Prediction_Helper.TIME_FLAG]))))
+        depart_time = datetime.fromisoformat(str(prediction_data[Prediction_Helper.OUTBOUND_FLAG][Prediction_Helper.DEPARTURE_FLAG][Prediction_Helper.TIME_FLAG]))
+        wait_time = depart_time - datetime.now(depart_time.tzinfo)
+        prediction_display.append("\tNext Departure: " + str(depart_time) + " (" + str(wait_time) + ")")
         prediction_display.append("\tUncertainty: " + str(prediction_data[Prediction_Helper.OUTBOUND_FLAG][Prediction_Helper.DEPARTURE_FLAG][Prediction_Helper.UNCERTAINTY_FLAG]))
     else:
         prediction_display.append("\tNext Departure: Unknown")
