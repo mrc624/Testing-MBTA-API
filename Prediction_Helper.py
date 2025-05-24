@@ -1,4 +1,5 @@
 import time
+import json
 from datetime import datetime
 import API_Helper
 
@@ -8,11 +9,11 @@ INBOUND_DIRECTION = 1
 OUTBOUND_FLAG = "out"
 INBOUND_FLAG = "in"
 ARRIVAL_FLAG = "arrive"
-UNCERTAINTY_FLAG = "auncertain"
+UNCERTAINTY_FLAG = "uncertain"
 TIME_FLAG = "time"
 DEPARTURE_FLAG = "depart"
 
-def Get_Next_Arrival_Data(stop:str, route:str):
+def Get_Next_Arrival_Departure_Data(stop:str, route:str):
     data = {
         INBOUND_FLAG: {
             ARRIVAL_FLAG: {
@@ -56,9 +57,10 @@ def Get_Next_Arrival_Data(stop:str, route:str):
     earliest, uncertainty = Find_Earlist_Arrival(predictions, OUTBOUND_DIRECTION)
     data[OUTBOUND_FLAG][ARRIVAL_FLAG][TIME_FLAG] = earliest
     data[OUTBOUND_FLAG][ARRIVAL_FLAG][UNCERTAINTY_FLAG] = uncertainty
+    if API_Helper.DEBUG:
+        with open(API_Helper.DEBUG_FOLDER + "next_arrival_departure.json", 'w') as fp:
+            json.dump(data, fp, indent=4)
     return data
-
-import json
 
 
 def Find_Earlist_Departure(predictions, direction):

@@ -3,14 +3,15 @@ import os
 import asyncio
 from discord.ext import commands
 from dotenv import load_dotenv
+from datetime import datetime
 import Stop_Helper
 import Route_Helper
+import Prediction_Helper
 
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-PRINT_IN_GROUPS_OF = 1
 MAX_CHAR_PRINT = 2000
 
 DESCRIPTION_FLAG = "desc"
@@ -110,6 +111,33 @@ async def pick_stop(ctx):
             await ctx.send("Timeout")
             return
     
+    prediction_data = Prediction_Helper.Get_Next_Arrival_Departure_Data("place-gover","Green-B")
+    prediction_display = [ ]
+    prediction_display.append("Inbound:")
+    if prediction_data[Prediction_Helper.INBOUND_FLAG][Prediction_Helper.ARRIVAL_FLAG][Prediction_Helper.TIME_FLAG] is not None:
+        prediction_display.append("\tNext Arrival: " + str(datetime.fromisoformat(str(prediction_data[Prediction_Helper.INBOUND_FLAG][Prediction_Helper.ARRIVAL_FLAG][Prediction_Helper.TIME_FLAG]))))
+        prediction_display.append("\tUncertainty: " + str(prediction_data[Prediction_Helper.INBOUND_FLAG][Prediction_Helper.ARRIVAL_FLAG][Prediction_Helper.UNCERTAINTY_FLAG]))
+    else:
+        prediction_display.append("\tNext Arrival: Unknown")
+    if prediction_data[Prediction_Helper.INBOUND_FLAG][Prediction_Helper.DEPARTURE_FLAG][Prediction_Helper.TIME_FLAG] is not None:
+        prediction_display.append("\tNext Departure: " + str(datetime.fromisoformat(str(prediction_data[Prediction_Helper.INBOUND_FLAG][Prediction_Helper.DEPARTURE_FLAG][Prediction_Helper.TIME_FLAG]))))
+        prediction_display.append("\tUncertainty: " + str(prediction_data[Prediction_Helper.INBOUND_FLAG][Prediction_Helper.DEPARTURE_FLAG][Prediction_Helper.UNCERTAINTY_FLAG]))
+    else:
+        prediction_display.append("\tNext Departure: Unknown")
+
+    prediction_display.append("Outbound:")
+    if prediction_data[Prediction_Helper.OUTBOUND_FLAG][Prediction_Helper.ARRIVAL_FLAG][Prediction_Helper.TIME_FLAG] is not None:
+        prediction_display.append("\tNext Arrival: " + str(datetime.fromisoformat(str(prediction_data[Prediction_Helper.OUTBOUND_FLAG][Prediction_Helper.ARRIVAL_FLAG][Prediction_Helper.TIME_FLAG]))))
+        prediction_display.append("\tUncertainty: " + str(prediction_data[Prediction_Helper.OUTBOUND_FLAG][Prediction_Helper.ARRIVAL_FLAG][Prediction_Helper.UNCERTAINTY_FLAG]))
+    else:
+        prediction_display.append("\tNext Arrival: Unknown")
+    if prediction_data[Prediction_Helper.OUTBOUND_FLAG][Prediction_Helper.DEPARTURE_FLAG][Prediction_Helper.TIME_FLAG] is not None:
+        prediction_display.append("\tNext Departure: " + str(datetime.fromisoformat(str(prediction_data[Prediction_Helper.OUTBOUND_FLAG][Prediction_Helper.DEPARTURE_FLAG][Prediction_Helper.TIME_FLAG]))))
+        prediction_display.append("\tUncertainty: " + str(prediction_data[Prediction_Helper.OUTBOUND_FLAG][Prediction_Helper.DEPARTURE_FLAG][Prediction_Helper.UNCERTAINTY_FLAG]))
+    else:
+        prediction_display.append("\tNext Departure: Unknown")
+    
+    await Group_Print_List(prediction_display, ctx)
     
 
 @bot.command(name="alerts")

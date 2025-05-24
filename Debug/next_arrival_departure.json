@@ -1,0 +1,22 @@
+{
+    "in": {
+        "arrive": {
+            "time": "2025-05-24T11:31:12-04:00",
+            "uncertain": 60
+        },
+        "depart": {
+            "time": null,
+            "uncertain": null
+        }
+    },
+    "out": {
+        "arrive": {
+            "time": null,
+            "uncertain": null
+        },
+        "depart": {
+            "time": "2025-05-24T11:35:53-04:00",
+            "uncertain": 360
+        }
+    }
+}

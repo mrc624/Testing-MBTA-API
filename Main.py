@@ -12,8 +12,6 @@ import Prediction_Helper
 
 import Discord_Helper
 
-ans = Prediction_Helper.Get_Next_Arrival_Data("place-gover","Green-B")
-
 Discord_Helper.Run_Bot()
 
 run = True
